@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliseu | Fernandes Laurindo</title>
+    
+    <!-- Meta Description & SEO -->
+    <meta name="description" content="Central de links oficiais, projetos, jogos interativos e redes sociais de Eliseu Fernandes Laurindo. Desenvolvedor Full Stack & Criador de Soluções Web.">
+    <meta name="theme-color" content="#050505">
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Eliseu | Fernandes Laurindo">
+    <meta property="og:description" content="Explore meus projetos, jogos interativos, site pessoal e formas de contato.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eliseuangelos.github.io/">
+    
+    <!-- Favicon SVG Data URI -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23050505%22/><text x=%2250%22 y=%2270%22 font-size=%2260%22 font-family=%22monospace%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22%2300BFFF%22>E</text></svg>">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS & Neon Theme Variables -->
+    <style>
+        :root {
+            --bg-primary: #050505;
+            --accent-neon: #00BFFF;
+            --card-bg: #0d0d12;
+            --card-border: rgba(0, 191, 255, 0.2);
+            --text-secondary: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-secondary);
+            overflow-x: hidden;
+        }
+
+        /* Subtle neon glow effects */
+        .neon-glow {
+            text-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
+        }
+
+        .neon-box-glow {
+            box-shadow: 0 0 20px rgba(0, 191, 255, 0.15);
+        }
+
+        .neon-box-glow:hover {
+            box-shadow: 0 0 25px rgba(0, 191, 255, 0.5), inset 0 0 15px rgba(0, 191, 255, 0.2);
+        }
+
+        /* Smooth button transition and hover transformations */
+        .link-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .link-card:hover {
+            background-color: var(--accent-neon);
+            border-color: var(--accent-neon);
+            color: #050505;
+            transform: translateY(-3px);
+        }
+
+        .link-card:hover .icon-container {
+            color: #050505;
+            transform: scale(1.1);
+        }
+
+        .link-card:hover span {
+            color: #050505;
+        }
+
+        /* Entrance animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-down {
+            animation: fadeInDown 0.8s ease-out forwards;
+        }
+
+        .animate-fade-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+        .stagger-5 { animation-delay: 0.5s; }
+        .stagger-6 { animation-delay: 0.6s; }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050505;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1a1a24;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00BFFF;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-[#00BFFF] selection:text-black">
+
+    <!-- Background Ambient Glow Effects -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-[#00BFFF] opacity-10 blur-[120px] pointer-events-none rounded-full"></div>
+
+    <!-- Main Content Container -->
+    <main class="w-full max-w-md mx-auto px-5 pt-12 pb-8 flex-grow flex flex-col items-center z-10">
+        
+        <!-- Profile / Header Section -->
+        <header class="w-full text-center mb-8 animate-fade-down">
+            <!-- Avatar / Logo Badge -->
+            <div class="relative w-24 h-24 mx-auto mb-5 rounded-full p-[2px] bg-gradient-to-b from-[#00BFFF] to-transparent neon-box-glow">
+                <div class="w-full h-full bg-[#0a0a0f] rounded-full flex items-center justify-center overflow-hidden">
+                    <span class="text-3xl font-bold text-[#00BFFF] tracking-tighter">EFL</span>
+                </div>
+            </div>
+
+            <!-- Titles -->
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-[#00BFFF] tracking-tight neon-glow mb-1">
+                Eliseu
+            </h1>
+            <h2 class="text-lg sm:text-xl font-medium text-white tracking-wide mb-3">
+                Fernandes Laurindo
+            </h2>
+            <p class="text-sm text-gray-400 font-light max-w-xs mx-auto">
+                Deus seja louvado!
+            </p>
+        </header>
+
+        <!-- Links List Navigation -->
+        <nav class="w-full flex flex-col gap-4" aria-label="Links de Redes Sociais e Projetos">
+            
+            <!-- 1. Site Pessoal -->
+            <a href="https://eliseuangelos.github.io/" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-1">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">Site Pessoal</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+            <!-- 2. Caça-Palavras -->
+            <a href="https://eliseuangelos.github.io/caca-palavras/" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-2">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">Caça-Palavras</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+            <!-- 3. Jogo da Memória -->
+            <a href="https://eliseuangelos.github.io/jogo-da-memoria/" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-3">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">Jogo da Memória</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+            <!-- 4. Sudoku -->
+            <a href="https://eliseuangelos.github.io/sudoku/" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-4">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">Sudoku</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+            <!-- 5. WhatsApp -->
+            <a href="https://wa.me/5547984951813?text=Ol%C3%A1%2C%20Eliseu!%20Aqui%20%C3%A9%20" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-5">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">WhatsApp</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+            <!-- 6. LinkedIn -->
+            <a href="https://linkedin.com/in/eliseu-fernandes-laurindo" target="_blank" rel="noopener noreferrer" 
+               class="link-card w-full p-4 rounded-xl flex items-center justify-between group opacity-0 animate-fade-up stagger-6">
+                <div class="flex items-center gap-3.5">
+                    <div class="icon-container text-[#00BFFF] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-white tracking-wide transition-colors duration-300 text-sm sm:text-base">LinkedIn</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 group-hover:text-black transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+
+        </nav>
+    </main>
+
+    <!-- Footer with Quote -->
+    <footer class="w-full max-w-md mx-auto px-5 py-6 text-center z-10">
+        <blockquote class="text-xs sm:text-sm text-gray-400 italic mb-1.5 font-light leading-relaxed">
+            "Quanto mais aumenta nosso conhecimento, mais evidente fica nossa ignorância."
+        </blockquote>
+        <cite class="block text-xs font-medium text-[#00BFFF] tracking-wider uppercase not-italic">
+            — John F. Kennedy
+        </cite>
+    </footer>
+
+    <!-- Interactive Script (if required for logging/analytics or click feedback) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Eliseu Link in Bio loaded successfully.");
+            
+            // Add subtle click feedback event to links
+            const links = document.querySelectorAll('a[target="_blank"]');
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    link.style.transform = 'scale(0.97)';
+                    setTimeout(() => {
+                        link.style.transform = '';
+                    }, 150);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
