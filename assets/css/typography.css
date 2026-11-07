@@ -7,6 +7,6 @@ h3{font-size:var(--fs-lg);font-weight:700}
 h4{font-size:1.06rem;font-weight:600;letter-spacing:-.01em}
 h5{font:500 .75rem var(--font-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-secondary)}
 p{margin:0 0 1.1em;text-align:justify;text-indent:30px;hyphens:auto}
-.eyebrow,.status,.sub,.meta,.copy,.lbox p{text-align:left;text-indent:0;hyphens:none}
+.status,.sub,.meta,.copy{text-align:left;text-indent:0;hyphens:none}
 .sub{color:var(--color-text-secondary);margin:-.6rem 0 var(--sp-3)}
 .meta{color:var(--color-text-secondary);font:500 .82rem/1.5 var(--font-mono)}

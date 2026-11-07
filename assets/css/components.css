@@ -38,7 +38,6 @@ html.js #loader{display:flex}
 @keyframes lfail{to{opacity:0;visibility:hidden}}
 .lbox{width:min(100%,22rem);text-align:center}
 .lbox img{width:56px;height:56px;margin:0 auto 1.2rem;border-radius:14px}
-.lbox p{margin:0;font:500 .85rem var(--font-mono);color:var(--color-text-secondary)}
 .lbox strong{display:block;margin:.4rem 0 1.2rem;font:500 .8rem var(--font-mono);letter-spacing:.16em;color:var(--color-primary)}
 .track{height:4px;border-radius:2px;background:var(--color-surface-secondary);overflow:hidden}
 #bar{height:100%;width:0;background:linear-gradient(90deg,var(--color-accent),var(--color-accent-secondary))}

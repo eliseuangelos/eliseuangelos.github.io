@@ -2,7 +2,7 @@
  .about{grid-template-columns:minmax(16rem,21rem) 1fr;justify-items:stretch;align-items:center}
  .photo{width:100%}
  .hero{grid-template-columns:1.3fr .7fr}
- .hero-art{display:grid}
+ .hero-photo{display:block;width:min(100%,22rem);justify-self:center}
 }
 @media(min-width:62em){
  #tg{display:none}

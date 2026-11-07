@@ -9,4 +9,5 @@
 [data-theme="dark"] ::selection{color:#111C28}
 [data-theme="dark"] .moon{display:none}
 [data-theme="dark"] .sun{display:block}
-html.theme-anim *,html.theme-anim *::before,html.theme-anim *::after{transition:background-color .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),fill .35s,stroke .35s!important}
+/* Troca de tema instantânea: transições são suspensas por um instante durante a mudança. */
+html.no-tr *,html.no-tr *::before,html.no-tr *::after{transition:none!important}
