@@ -1,0 +1,12 @@
+/* Tema escuro: só redefine os tokens semânticos; os componentes não mudam. */
+[data-theme="dark"]{
+ color-scheme:dark;
+ --color-background:#111C28;--color-surface:#1B2A3A;--color-surface-secondary:#24364A;
+ --color-text:#EDF3F8;--color-text-secondary:#B7C5D3;--color-border:#3A4D60;
+ --color-primary:#91B7D8;--color-primary-hover:#A9C8E3;--color-on-primary:#111C28;
+ --color-accent:#83B4FF;--color-accent-secondary:#68CBC2;--color-shadow:rgba(0,0,0,.38);--color-focus:#83B4FF;
+}
+[data-theme="dark"] ::selection{color:#111C28}
+[data-theme="dark"] .moon{display:none}
+[data-theme="dark"] .sun{display:block}
+html.theme-anim *,html.theme-anim *::before,html.theme-anim *::after{transition:background-color .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),fill .35s,stroke .35s!important}

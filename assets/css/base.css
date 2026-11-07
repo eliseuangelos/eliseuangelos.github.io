@@ -1,1 +1,15 @@
-/**/
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html.loading{overflow:hidden;animation:unlock 0s 12s forwards}
+@keyframes unlock{to{overflow:auto}}
+body{counter-reset:s;font:400 var(--fs-base)/1.7 var(--font-sans);color:var(--color-text);background:var(--color-background);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:var(--color-accent);text-underline-offset:3px;transition:color var(--t-fast)}
+a:hover{color:var(--color-primary)}
+:focus-visible{outline:3px solid var(--color-focus);outline-offset:3px;border-radius:4px}
+::selection{background:var(--color-accent);color:#fff}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:.5rem;top:-4rem;z-index:300;padding:.6rem 1rem;border-radius:var(--radius-sm);background:var(--color-primary);color:var(--color-on-primary)}
+.skip:focus{top:.5rem;color:var(--color-on-primary)}
+.ic{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+html.rv-on .rv{opacity:0;transform:translateY(14px);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+html.rv-on .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*:not(#loader):not(html),*::before,*::after{animation:none!important;transition:none!important}html.rv-on .rv{opacity:1!important;transform:none!important}}

@@ -1,0 +1,12 @@
+h1,h2,h3,h4,h5{line-height:1.2;letter-spacing:-.02em;color:var(--color-text)}
+h1{font-size:var(--fs-2xl);font-weight:800;line-height:1.06;letter-spacing:-.035em;color:var(--color-primary)}
+h2{font-size:var(--fs-xl);font-weight:700;counter-increment:s;margin-bottom:var(--sp-3)}
+h2::before{content:"0" counter(s);display:block;margin-bottom:.5rem;font:500 .8rem var(--font-mono);letter-spacing:.14em;color:var(--color-accent-secondary)}
+h2::after{content:"";display:block;width:3rem;height:3px;margin-top:.9rem;border-radius:2px;background:linear-gradient(90deg,var(--color-accent),var(--color-accent-secondary))}
+h3{font-size:var(--fs-lg);font-weight:700}
+h4{font-size:1.06rem;font-weight:600;letter-spacing:-.01em}
+h5{font:500 .75rem var(--font-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-secondary)}
+p{margin:0 0 1.1em;text-align:justify;text-indent:30px;hyphens:auto}
+.eyebrow,.status,.sub,.meta,.copy,.lbox p{text-align:left;text-indent:0;hyphens:none}
+.sub{color:var(--color-text-secondary);margin:-.6rem 0 var(--sp-3)}
+.meta{color:var(--color-text-secondary);font:500 .82rem/1.5 var(--font-mono)}
