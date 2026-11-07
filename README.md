@@ -78,7 +78,7 @@ Alguns projetos pessoais que fazem parte da minha jornada de aprendizado e desen
 | Gerador de Caça-Palavras | Aplicação interativa para criação de caça-palavras. | [Acessar](https://eliseuangelos.github.io/caca-palavras/) |
 | Sudoku | Jogo de lógica com diferentes níveis de dificuldade. | [Acessar](https://eliseuangelos.github.io/sudoku/) |
 | Jogo da Memória | Jogo interativo de associação de imagens e pares. | [Acessar](https://eliseuangelos.github.io/jogo-da-memoria/) |
-| Portal da Transparência | Projeto experimental de apresentação de informações. | [Acessar](https://eliseuangelos.github.io/portal-transparencia/) |
+| Quebra-cabeça | Jogo interativo de montagem de imagens em peças. | [Acessar](https://eliseuangelos.github.io/quebra-cabeca/) |
 
 Os projetos representam experiências práticas de estudo, criatividade e exploração de tecnologias.
 
@@ -92,7 +92,7 @@ Durante o planejamento e desenvolvimento deste site e de outros projetos, utiliz
 
 - **ChatGPT:** apoio na elaboração de ideias, organização de conteúdo, resolução de dúvidas e aprimoramento de soluções.
 - **Claude:** assistência na análise, estruturação, implementação e revisão de código.
-- **Google AI Studio:** experimentação com recursos e possibilidades de Inteligência Artificial.
+- **Gemini:** apoio à pesquisa, experimentação, desenvolvimento de ideias e exploração de novas possibilidades com Inteligência Artificial.
 
 Essas ferramentas são utilizadas como apoio ao aprendizado e ao desenvolvimento. As decisões, ideias, objetivos e revisões fazem parte do meu próprio processo de construção.
 
