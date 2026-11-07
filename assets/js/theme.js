@@ -18,8 +18,8 @@
   var b=document.getElementById("theme-toggle");if(!b)return;
   b.addEventListener("click",function(){
    var next=r.getAttribute("data-theme")==="dark"?"light":"dark";
-   if(!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)){r.classList.add("theme-anim");setTimeout(function(){r.classList.remove("theme-anim")},450)}
-   apply(next);save(next);
+   r.classList.add("no-tr");apply(next);save(next);
+   void r.offsetWidth;setTimeout(function(){r.classList.remove("no-tr")},60);
   });
   if(mq&&mq.addEventListener)mq.addEventListener("change",function(){if(!read())apply(current())});
  });
