@@ -1,173 +1,87 @@
-
 # Eliseu Fernandes Laurindo
 
 <p align="center">
-  <a href="https://eliseuangelos.github.io">
-    <img src="https://img.shields.io/badge/MEU%20SITE-00FFFF?style=for-the-badge&logo=githubpages&logoColor=000000" alt="Meu site">
-  </a>
-  <a href="https://github.com/eliseuangelos">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://linkedin.com/in/eliseu-fernandes-laurindo">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
+  <a href="https://eliseuangelos.github.io/">🌐 SITE PESSOAL E PROFISSIONAL</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/eliseuangelos">GITHUB</a>
+  &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/eliseu-fernandes-laurindo">LINKEDIN</a>
 </p>
 
-<p align="center">
-  <strong>Perfil pessoal e profissional | Tecnologia | Programação | Inteligência Artificial</strong>
-</p>
+<p align="center"><strong>Perfil profissional • Tecnologia • Aprendizagem • Inteligência Artificial</strong></p>
 
 ---
 
-## 🌐 Sobre o projeto
+## Sobre o projeto
 
-Este repositório contém o código-fonte do meu **site pessoal e profissional**, desenvolvido para apresentar minha trajetória, experiências profissionais, formação, competências, projetos e canais de contato.
+Este repositório reúne os arquivos do meu **site pessoal e profissional**, desenvolvido para apresentar minha trajetória, experiências, formação, competências, projetos de estudo e canais de contato em um único endereço.
 
-A proposta é reunir minhas informações em um único espaço digital, oferecendo uma apresentação profissional acessível, organizada e moderna.
+A página funciona como uma apresentação profissional complementar ao currículo: organiza informações sobre minha experiência administrativa e operacional, registra minha formação e cursos, reúne projetos digitais e facilita o contato com pessoas, empresas e organizações interessadas no meu perfil.
 
-Mais do que um currículo online, este site representa também meu interesse por tecnologia, minha jornada de aprendizado e minha iniciativa de explorar novas possibilidades por meio das ferramentas digitais.
+O site também apresenta meu interesse por tecnologia e inteligência artificial. Os projetos publicados são experiências práticas de aprendizagem, pesquisa e experimentação — não uma apresentação de serviços como desenvolvedor profissional.
 
-🔗 **Acesse o site:**  
-https://eliseuangelos.github.io
+**Acesse:** [eliseuangelos.github.io](https://eliseuangelos.github.io/)
 
----
+## Objetivos do site
 
-## 👨‍💻 Sobre mim
+- Apresentar meu perfil pessoal e profissional de forma clara e acessível.
+- Reunir currículo, experiências, formação, cursos e competências.
+- Exibir projetos pessoais e experimentais desenvolvidos a partir de interesses, estudos e necessidades práticas.
+- Registrar minha evolução no aprendizado de tecnologias web e no uso consciente de ferramentas de inteligência artificial.
+- Disponibilizar canais de contato e acesso aos conteúdos publicados em outros espaços digitais.
+- Manter uma presença profissional consistente, responsiva e organizada.
 
-Olá! Sou **Eliseu Fernandes Laurindo**, moro em Navegantes, Santa Catarina, e tenho experiência em atividades administrativas e operacionais, especialmente nas áreas de almoxarifado, controle de materiais, pesagem, faturamento direto, organização de documentos e elaboração de relatórios.
+## Conteúdo e estrutura
 
-Também sou estudante de programação e apaixonado por tecnologia e Inteligência Artificial.
-
-Não possuo formação acadêmica específica na área de Desenvolvimento de Software. Minha trajetória nesse campo é construída por meio de estudos, pesquisas, experimentação e desenvolvimento de projetos próprios.
-
-Acredito no aprendizado contínuo e no potencial da tecnologia para transformar ideias em soluções práticas.
-
----
-
-## 🚀 Objetivos do site
-
-- Apresentar meu perfil pessoal e profissional.
-- Disponibilizar meu currículo e histórico de experiências.
-- Compartilhar projetos pessoais e experimentais.
-- Demonstrar meu interesse por tecnologia e programação.
-- Registrar minha evolução no aprendizado de desenvolvimento web.
-- Facilitar o contato com empresas, recrutadores e pessoas interessadas em meus projetos.
-
----
-
-## ✨ Seções do site
-
-| Seção | Descrição |
+| Área | Finalidade |
 |---|---|
-| Início | Apresentação e boas-vindas. |
-| Sobre | Um pouco sobre minha trajetória e interesses. |
-| Perfil Profissional | Experiências, qualificações e formação. |
-| Projetos | Aplicações e experiências desenvolvidas. |
-| Contatos | Canais para comunicação. |
-| Serviços | Espaço destinado à apresentação de futuras soluções. |
-| Blog | Acesso aos meus blogs e conteúdos publicados. |
+| Início | Apresentação e acesso rápido às principais áreas. |
+| Sobre | Trajetória, interesses e contexto pessoal. |
+| Perfil Profissional | Experiências, qualificações, formação e competências. |
+| Projetos | Aplicações e experiências digitais de estudo. |
+| Serviços | Espaço informativo para novidades e projetos futuros. |
+| Blogs | Acesso a conteúdos publicados em outras plataformas. |
+| Contatos | Canais para comunicação profissional. |
 
----
-
-## 🧩 Projetos
-
-Alguns projetos pessoais que fazem parte da minha jornada de aprendizado e desenvolvimento:
+## Projetos em destaque
 
 | Projeto | Descrição | Acesso |
 |---|---|---|
-| Gerador de Caça-Palavras | Aplicação interativa para criação de caça-palavras. | [Acessar](https://eliseuangelos.github.io/caca-palavras/) |
-| Sudoku | Jogo de lógica com diferentes níveis de dificuldade. | [Acessar](https://eliseuangelos.github.io/sudoku/) |
-| Jogo da Memória | Jogo interativo de associação de imagens e pares. | [Acessar](https://eliseuangelos.github.io/jogo-da-memoria/) |
-| Quebra-cabeça | Jogo interativo de montagem de imagens em peças. | [Acessar](https://eliseuangelos.github.io/quebra-cabeca/) |
+| Gerador de Caça-Palavras | Ferramenta para criar jogos de palavras, atividades e materiais em PDF. | [Acessar](https://eliseuangelos.github.io/caca-palavras/) |
+| Jogo da Memória Educativo | Atividade interativa com imagens, palavras, letras, números e recursos para impressão. | [Acessar](https://eliseuangelos.github.io/jogo-da-memoria/) |
+| Sudoku | Jogo de lógica com três níveis de dificuldade e recursos de apoio. | [Acessar](https://eliseuangelos.github.io/sudoku/) |
+| Quebra-Cabeças | Jogo de montagem de imagens com peças interativas, modos de jogo e placar local. | [Acessar](https://eliseuangelos.github.io/quebra-cabeca/) |
 
-Os projetos representam experiências práticas de estudo, criatividade e exploração de tecnologias.
+O DAY & NIGHT EXPERIENCE também possui página e repositório próprios; recomendo incluí-lo na seção Projetos do site pessoal na próxima atualização do portfólio, pois ainda não aparece na lista pública capturada.
 
----
+## Tecnologia e inteligência artificial na aprendizagem
 
-## 🤖 Inteligência Artificial no desenvolvimento
+Meu interesse por tecnologia não se limita ao uso de ferramentas prontas. Procuro compreender como as soluções funcionam, pesquisar alternativas, experimentar recursos e transformar ideias em aplicações úteis.
 
-A Inteligência Artificial tem um papel importante na minha jornada de aprendizado.
+No planejamento e na construção de projetos, ferramentas de inteligência artificial — como ChatGPT, Claude e Gemini — podem apoiar pesquisas, organização de requisitos, esclarecimento de dúvidas, análise de código e revisão de soluções. Elas fazem parte do processo de aprendizagem e experimentação; as decisões sobre os objetivos e a validação dos resultados continuam sendo responsabilidade do autor.
 
-Durante o planejamento e desenvolvimento deste site e de outros projetos, utilizo ferramentas como:
+## Identidade visual
 
-- **ChatGPT:** apoio na elaboração de ideias, organização de conteúdo, resolução de dúvidas e aprimoramento de soluções.
-- **Claude:** assistência na análise, estruturação, implementação e revisão de código.
-- **Gemini:** apoio à pesquisa, experimentação, desenvolvimento de ideias e exploração de novas possibilidades com Inteligência Artificial.
+O site pessoal é a referência visual dos projetos que estão sendo alinhados gradualmente ao padrão **EXECUTIVE DIGITAL**. A proposta é manter uma identidade consistente, com hierarquia visual clara, tipografia legível, componentes bem definidos, boa adaptação a diferentes telas e uso coerente da marca. A atualização visual dos demais projetos deve ser considerada um processo em andamento, não uma característica já aplicada a todos eles.
 
-Essas ferramentas são utilizadas como apoio ao aprendizado e ao desenvolvimento. As decisões, ideias, objetivos e revisões fazem parte do meu próprio processo de construção.
+## Tecnologias e publicação
 
-Acredito que a Inteligência Artificial, quando utilizada de maneira consciente, pode ampliar nossas possibilidades de aprendizado e criação.
+O projeto utiliza tecnologias nativas da web e é publicado como site estático pelo **GitHub Pages**. Não depende de uma aplicação de servidor ou de autenticação de usuários para apresentar o conteúdo público.
 
----
+## Sobre o autor
 
-## 🛠️ Tecnologias e ferramentas
+Sou **Eliseu Fernandes Laurindo**, profissional com experiência em atividades administrativas e operacionais, incluindo controle de materiais, rotinas de almoxarifado, conferência documental, registros de pesagem, relatórios, atualização de planilhas, atendimento e controle de acesso. Minha trajetória também inclui atividades voluntárias ligadas à secretaria, organização, ensino, comunicação e produção de materiais gráficos e audiovisuais.
 
-O projeto utiliza tecnologias e recursos voltados ao desenvolvimento web.
+Meu contato com a criação para a web começou por volta de **2010**, quando passei a estudar HTML e CSS e a explorar noções de JavaScript. Na adolescência, a curiosidade por tecnologia me levou a editar e experimentar estruturas de jogos digitais. Mais tarde, atuei como tutor de um MMORPG multiplataforma e internacional, mantive uma fanpage própria e desenvolvi scripts e calculadoras para apoiar os jogadores.
 
-- HTML5
-- CSS3
-- JavaScript
-- Git e GitHub
-- GitHub Pages
-- Ferramentas de Inteligência Artificial
+Hoje, afastado desse universo de jogos, direciono a mesma curiosidade para estudar tecnologia e inteligência artificial e construir projetos próprios conforme necessidades reais, objetivos de aprendizagem ou utilidades que possam ser compartilhadas.
 
-Meu conhecimento nessas tecnologias está em constante desenvolvimento, por meio de estudos e projetos práticos.
+**Não sou desenvolvedor profissional nem tenho formação acadêmica específica em desenvolvimento de software.** Apresento-me como estudante autodidata e entusiasta de tecnologia e inteligência artificial. Os projetos deste perfil representam uma jornada de aprendizagem prática, experimentação e evolução contínua.
+
+- **Site:** [eliseuangelos.github.io](https://eliseuangelos.github.io/)
+- **GitHub:** [github.com/eliseuangelos](https://github.com/eliseuangelos)
+- **LinkedIn:** [linkedin.com/in/eliseu-fernandes-laurindo](https://linkedin.com/in/eliseu-fernandes-laurindo)
 
 ---
 
-## 🎨 Identidade visual
-
-O site possui uma identidade visual tecnológica, com inspiração em interfaces digitais e elementos futuristas.
-
-Características principais:
-
-- Tema escuro.
-- Destaques em ciano (`#00FFFF`).
-- Elementos visuais inspirados no universo tecnológico.
-- Animações e transições.
-- Layout responsivo para computadores, tablets e celulares.
-- Navegação intuitiva e acessível.
-
----
-
-## 📱 Acesse meu site
-
-Conheça minha trajetória, meu perfil profissional e alguns dos projetos que venho desenvolvendo.
-
-<p align="center">
-  <a href="https://eliseuangelos.github.io">
-    <img src="https://img.shields.io/badge/ACESSAR%20MEU%20SITE-00FFFF?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="Acessar meu site">
-  </a>
-</p>
-
-**Site:** https://eliseuangelos.github.io
-
-**Repositório:** https://github.com/eliseuangelos/eliseuangelos.github.io
-
----
-
-## 📬 Contato
-
-Estou aberto a conexões, oportunidades profissionais, troca de conhecimentos e conversas sobre tecnologia.
-
-- **Site:** https://eliseuangelos.github.io
-- **GitHub:** https://github.com/eliseuangelos
-- **LinkedIn:** https://linkedin.com/in/eliseu-fernandes-laurindo
-
----
-
-## 👤 Autor
-
-**Eliseu Fernandes Laurindo**
-
-Profissional administrativo e operacional | Estudante de programação | Entusiasta de Inteligência Artificial.
-
-> Aprender, experimentar e transformar ideias em projetos: um passo de cada vez.
-
----
-
-<p align="center">
-  Desenvolvido com dedicação, curiosidade e o apoio da tecnologia e da Inteligência Artificial.
-  <br>
-  <strong>eliseu.angelos</strong>
-</p>
+<p align="center"><em>“Quanto mais aumenta nosso conhecimento, mais evidente fica nossa ignorância.”</em><br><strong>John F. Kennedy</strong></p>
