@@ -51,8 +51,7 @@ O site também apresenta meu interesse por tecnologia e inteligência artificial
 | Jogo da Memória Educativo | Atividade interativa com imagens, palavras, letras, números e recursos para impressão. | [Acessar](https://eliseuangelos.github.io/jogo-da-memoria/) |
 | Sudoku | Jogo de lógica com três níveis de dificuldade e recursos de apoio. | [Acessar](https://eliseuangelos.github.io/sudoku/) |
 | Quebra-Cabeças | Jogo de montagem de imagens com peças interativas, modos de jogo e placar local. | [Acessar](https://eliseuangelos.github.io/quebra-cabeca/) |
-
-O DAY & NIGHT EXPERIENCE também possui página e repositório próprios; recomendo incluí-lo na seção Projetos do site pessoal na próxima atualização do portfólio, pois ainda não aparece na lista pública capturada.
+| Alternador Dia e Noite | Efeito dia e noite de uma maneira diferente. | [Acessar](https://eliseuangelos.github.io/day-night-experience/) |
 
 ## Tecnologia e inteligência artificial na aprendizagem
 
