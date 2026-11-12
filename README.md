@@ -3,11 +3,9 @@
 <p align="center">
   <a href="https://eliseuangelos.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/SITE_PESSOAL-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=050505" alt="Site Pessoal e Profissional">
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/eliseuangelos" target="_blank">
+  </a><a href="https://github.com/eliseuangelos" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/eliseu-fernandes-laurindo" target="_blank">
+  </a><a href="https://linkedin.com/in/eliseu-fernandes-laurindo" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
