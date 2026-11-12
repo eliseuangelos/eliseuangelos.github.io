@@ -4,6 +4,7 @@
 .brand:hover{color:var(--color-accent)}
 .icon-btn,.soc a{display:inline-grid;place-items:center;width:44px;height:44px;padding:0;background:var(--color-surface);color:var(--color-primary);border:1px solid var(--color-border);border-radius:var(--radius-sm);cursor:pointer;transition:border-color var(--t-fast),color var(--t-fast),transform var(--t-fast),background var(--t-fast)}
 .icon-btn:hover,.soc a:hover{border-color:var(--color-accent);color:var(--color-accent);transform:translateY(-1px)}
+#dn-slot{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px}
 .moon{display:block}.sun{display:none}
 #tg i,#tg i::before,#tg i::after{display:block;width:18px;height:2px;border-radius:2px;background:currentColor;position:relative;transition:transform var(--t-base) var(--ease),background var(--t-fast)}
 #tg i::before,#tg i::after{content:"";position:absolute;left:0}

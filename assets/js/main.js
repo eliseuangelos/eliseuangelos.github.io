@@ -1,10 +1,10 @@
-/* Tela de carregamento (mínimo de 3 s) e rodapé. */
+/* Tela de carregamento (mínimo de 4 s) e rodapé. */
 (function(){
  "use strict";
  var d=document,r=d.documentElement,y=d.getElementById("yr");
  if(y)y.textContent=new Date().getFullYear();
  var L=d.getElementById("loader"),bar=d.getElementById("bar"),pct=d.getElementById("pct");
- var MIN=3000,MAX=9000,t0=Date.now(),loaded=d.readyState==="complete",done=false;
+ var MIN=4000,MAX=9000,t0=Date.now(),loaded=d.readyState==="complete",done=false;
  var rm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
  window.addEventListener("load",function(){loaded=true});
  function finish(){

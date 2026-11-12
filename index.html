@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap">
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://eliseuangelos.github.io/day-night-experience/component/day-night.css">
 <script src="assets/js/theme.js"></script>
 </head>
 <body>
@@ -62,7 +63,7 @@
    </ul>
   </nav>
   <div class="bar-actions">
-   <button id="theme-toggle" class="icon-btn" type="button" aria-label="Modo escuro" aria-pressed="false"><svg class="ic moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="ic sun" aria-hidden="true"><use href="#i-sun"/></svg></button>
+   <span id="dn-slot"></span>
    <button id="tg" class="icon-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu"><i aria-hidden="true"></i></button>
   </div>
  </div>
@@ -76,7 +77,7 @@
    <div class="hero-cta rv"><a class="btn" href="#perfil">Perfil Profissional</a><a class="btn ghost" href="#contatos">Contatos</a></div>
   </div>
   <figure class="photo hero-photo rv">
-   <img src="./images/bemvindo.png" alt="Fotografia de Eliseu Fernandes Laurindo" width="1122" height="1402" loading="lazy" decoding="async">
+   <img src="https://raw.githubusercontent.com/eliseuangelos/eliseuangelos/main/images/bemvindo.png" alt="Fotografia de Eliseu Fernandes Laurindo" width="1122" height="1402" loading="lazy" decoding="async">
   </figure>
  </div>
 </section>
@@ -86,7 +87,7 @@
   <h2 id="t-sobre" class="rv">Sobre mim</h2>
   <div class="about rv">
    <figure class="photo" style="margin:0">
-    <img src="./images/quemeusou.png" alt="Fotografia de Eliseu Fernandes Laurindo, em corpo inteiro, com fundo transparente" width="1122" height="1402" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/eliseuangelos/eliseuangelos/cf6d74f90c99484fbfd1d16d75c267ce999f1ce6/images/quemeusou.png" alt="Fotografia de Eliseu Fernandes Laurindo, em corpo inteiro, com fundo transparente" width="1122" height="1402" loading="lazy" decoding="async">
    </figure>
    <div class="text">
     <p>Olá! Sou Eliseu Fernandes Laurindo, moro em Navegantes, Santa Catarina, e tenho interesse em tecnologia, programação e ferramentas digitais que contribuem para a produtividade e a otimização de processos.</p>
@@ -118,15 +119,15 @@
    <div class="timeline">
    <article class="card">
     <h4>Auxiliar de Almoxarifado &mdash; BESIX SPE LTDA</h4>
-    <p class="meta">02/12/2025 – Atual &middot; Auxiliar de Almoxarifado, Balanceiro e Faturamento Direto</p>
-    <h5>Auxiliar de Almoxarifado</h5>
+    <p class="meta">02/12/2025 – Atual &middot; Almoxarifado, operação de balança e faturamento direto</p>
+    <h5>Almoxarifado</h5>
     <ul>
      <li>Recebimento, armazenamento e organização de produtos e materiais.</li>
      <li>Distribuição de Equipamentos de Proteção Individual (EPIs) e registro das baixas no sistema.</li>
      <li>Apoio à realização de inventários e ao controle de materiais.</li>
      <li>Conservação, limpeza e organização do ambiente de trabalho.</li>
     </ul>
-    <h5>Balanceiro</h5>
+    <h5>Operação de balança</h5>
     <ul>
      <li>Operação do sistema Advanced Two, da CONFIANTEC.</li>
      <li>Cadastro e manutenção de registros de veículos, produtos, fornecedores e transportadoras.</li>
@@ -137,7 +138,7 @@
      <li>Análise e consolidação de dados de pesagem para elaboração e atualização de planilhas no Microsoft Excel.</li>
      <li>Preparação e envio diário de relatórios por e-mail.</li>
     </ul>
-    <h5>Faturamento Direto</h5>
+    <h5>Faturamento direto</h5>
     <ul>
      <li>Conferência das informações de pesagem e dos dados das notas fiscais para identificação de divergências e encaminhamento para revisão ou correção.</li>
      <li>Digitalização e organização de notas fiscais e tickets de pesagem.</li>
@@ -164,7 +165,7 @@
 
    <article class="card">
     <h4>Office-boy &mdash; BISTEK Supermercados LTDA</h4>
-    <p class="meta">11/01/2017 – 07/02/2019 &middot; Office-boy, Panfleteiro e Repositor</p>
+    <p class="meta">11/01/2017 – 07/02/2019 &middot; Office-boy, panfleteiro e repositor de mercadorias</p>
     <h5>Panfletagem</h5>
     <ul><li>Distribuição de materiais publicitários diretamente em imóveis.</li></ul>
     <h5>Reposição e operações de supermercado</h5>
@@ -183,7 +184,7 @@
    </article>
 
    <article class="card">
-    <h4>Secretário (Voluntário) &mdash; Instituições religiosas</h4>
+    <h4>Secretário e colaborador voluntário &mdash; Instituições religiosas</h4>
     <p class="meta">2011 – Atual &middot; Voluntariado: secretaria, ensino, comunicação, apresentações e produção gráfica e audiovisual</p>
     <h5>Secretaria e rotinas administrativas</h5>
     <ul>
@@ -222,7 +223,7 @@
    <article class="card">
     <ul>
      <li><strong>Excel do Básico ao Avançado</strong> &mdash; Fundação Bradesco, 65 horas, 2026.</li>
-     <li><strong>Inglês</strong> &mdash; Minds UP English School, Abril de 2025 a Outrubro de 2026.</li>
+     <li><strong>Inglês</strong> &mdash; Minds UP English School, em andamento desde abril de 2025.</li>
      <li><strong>Auxiliar Administrativo</strong> &mdash; SENAC, 210 horas, 2014.</li>
      <li><strong>Médio em Teologia</strong> &mdash; FAEST / CEETAD, 450 horas, 2012.</li>
      <li><strong>Profissional em Informática</strong> &mdash; Elite Treinamento, 120 horas, 2005.</li>
@@ -258,27 +259,27 @@
   <h2 id="t-proj" class="rv">Projetos</h2>
   <div class="grid">
    <article class="card rv">
-    <svg class="ic big" aria-hidden="true"><use href="#i-grid"/></svg>
+    <svg class="ic big" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
     <h3>Gerador de Caça-Palavras</h3>
     <p>Projeto web para geração de caça-palavras, com foco em uma experiência interativa de criação de atividades.</p>
     <a class="btn" href="https://eliseuangelos.github.io/caca-palavras/" target="_blank" rel="noopener noreferrer">Acessar projeto<span class="sr"> Gerador de Caça-Palavras (abre em nova aba)</span><svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
    </article>
    <article class="card rv">
-    <svg class="ic big" aria-hidden="true"><use href="#i-grid"/></svg>
+    <svg class="ic big" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
     <h3>Jogo da Memória &mdash; Desafio dos Pares</h3>
     <p>Jogo web da memória com o desafio de encontrar os pares, com temas, recordes e placar.</p>
     <a class="btn" href="https://eliseuangelos.github.io/jogo-da-memoria/" target="_blank" rel="noopener noreferrer">Acessar projeto<span class="sr"> Jogo da Memória (abre em nova aba)</span><svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
    </article>
    <article class="card rv">
-    <svg class="ic big" aria-hidden="true"><use href="#i-grid"/></svg>
+    <svg class="ic big" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
     <h3>Sudoku</h3>
-    <p>Jogue Sudoku online.</p>
+    <p>Projeto web de Sudoku com níveis de dificuldade.</p>
     <a class="btn" href="https://eliseuangelos.github.io/sudoku/" target="_blank" rel="noopener noreferrer">Acessar projeto<span class="sr"> Sudoku (abre em nova aba)</span><svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
    </article>
    <article class="card rv">
-    <svg class="ic big" aria-hidden="true"><use href="#i-grid"/></svg>
-    <h3>Quebra-cabeças</h3>
-    <p>Jogo de quebra-cabeça.</p>
+    <svg class="ic big" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+    <h3>Quebra-cabeça</h3>
+    <p>Projeto web de quebra-cabeças, com galeria de imagens e diferentes modos de jogo.</p>
     <a class="btn" href="https://eliseuangelos.github.io/quebra-cabeca/" target="_blank" rel="noopener noreferrer">Acessar projeto<span class="sr"> Quebra-cabeça (abre em nova aba)</span><svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
    </article>
   </div>
@@ -339,10 +340,12 @@
    <li><a href="https://linkedin.com/in/eliseu-fernandes-laurindo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Eliseu (abre em nova aba)"><svg class="ic" aria-hidden="true"><use href="#i-in"/></svg></a></li>
    <li><a href="https://github.com/eliseuangelos" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Eliseu (abre em nova aba)"><svg class="ic" aria-hidden="true"><use href="#i-gh"/></svg></a></li>
   </ul>
-  <p class="copy">&copy; <span id="yr">2026</span> eliseu.angelos &mdash; Todos os direitos reservados &mdash; Este site foi atualizado em "Novembro de 2026".</p>
+  <p class="copy">&copy; <span id="yr">2026</span> eliseu.angelos &mdash; Todos os direitos reservados.</p>
  </div>
 </footer>
 
+<script src="https://eliseuangelos.github.io/day-night-experience/component/day-night.js" defer></script>
+<script src="assets/js/day-night-init.js" defer></script>
 <script src="assets/js/navigation.js" defer></script>
 <script src="assets/js/animations.js" defer></script>
 <script src="assets/js/print.js" defer></script>

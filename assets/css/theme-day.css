@@ -1,0 +1,8 @@
+/* DIA: tokens do tema claro (data-theme="light"). Os mesmos nomes existem em theme-night.css. */
+:root,:root[data-theme="light"]{
+ color-scheme:light;
+ --color-background:#F4F7FB;--color-surface:#FFFFFF;--color-surface-secondary:#E9EFF5;
+ --color-text:#162638;--color-text-secondary:#526579;--color-border:#D5DEE8;
+ --color-primary:#1D4263;--color-primary-hover:#143048;--color-on-primary:#FFFFFF;
+ --color-accent:#2563EB;--color-accent-secondary:#0B7E82;--color-shadow:rgba(22,38,56,.14);--color-focus:#2563EB;
+}
