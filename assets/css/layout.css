@@ -7,4 +7,5 @@ section:nth-of-type(even){background:color-mix(in srgb,var(--color-surface-secon
 .bar-actions{margin-left:auto;display:flex;gap:.5rem}
 footer{border-top:1px solid var(--color-border);background:var(--color-surface);padding-block:var(--sp-4)}
 .foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--sp-2)}
-.copy{width:100%;margin:0;color:var(--color-text-secondary);font:400 .85rem var(--font-mono)}
+.copy{width:100%;margin:0;color:var(--color-text-secondary);font:400 .85rem var(--font-mono);text-align: center;}
+.quotefoot{width:100%; text-align: center; margin: 5px 0px 10px;}
