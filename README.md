@@ -1,12 +1,19 @@
 # Eliseu Fernandes Laurindo
 
 <p align="center">
-  <a href="https://eliseuangelos.github.io/">🌐 SITE PESSOAL E PROFISSIONAL</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/eliseuangelos">GITHUB</a>
-  &nbsp;•&nbsp;
-  <a href="https://linkedin.com/in/eliseu-fernandes-laurindo">LINKEDIN</a>
+  <a href="https://eliseuangelos.github.io/" target="_blank">
+    <img src="https://shields.io" alt="Site Pessoal e Profissional" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/eliseuangelos" target="_blank">
+    <img src="https://shields.io" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/eliseu-fernandes-laurindo" target="_blank">
+    <img src="https://shields.io" alt="LinkedIn" />
+  </a>
 </p>
+
 
 <p align="center"><strong>Perfil profissional • Tecnologia • Aprendizagem • Inteligência Artificial</strong></p>
 
