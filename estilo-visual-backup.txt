@@ -1,395 +1,712 @@
-GUIA DE IDENTIDADE VISUAL — EXECUTIVE DIGITAL
-Arquivo de referência: estilo-visual-backup.txt
-Versão: 1.0 | Português (Brasil)
+# PROMPT MASTER — EXECUTIVE DIGITAL
+## Sistema Unificado de Identidade Visual, CSS e Experiência DAY & NIGHT
 
-======================================================================
-1. CONCEITO E PRINCÍPIOS
-======================================================================
+**IDENTIDADE:** EXECUTIVE DIGITAL  
+**ASSINATURA:** Professional Identity + Modern Technology + Refined Experience  
+**AUTOR E RESPONSÁVEL PELA IDENTIDADE:** Eliseu Fernandes Laurindo  
+**SITE OFICIAL:** https://eliseuangelos.github.io/
 
-Nome: EXECUTIVE DIGITAL
-Conceito: Professional Identity + Modern Technology + Refined Experience.
+---
 
-A identidade combina aparência executiva, confiável e profissional com design contemporâneo, organização editorial e detalhes tecnológicos discretos.
+# 1. PAPEL E OBJETIVO
 
-Princípios:
-- O conteúdo é o protagonista; a decoração não deve competir com ele.
-- Priorizar legibilidade, hierarquia, contraste e espaços de respiro.
-- Usar efeitos tecnológicos em microinterações, não como decoração excessiva.
-- Manter consistência entre páginas, componentes e projetos.
-- Desenvolver layouts responsivos e acessíveis desde o início.
-- Não usar preto puro como fundo predominante no modo escuro.
-- Evitar estética de terminal, Matrix, scanlines e brilho neon.
-- A identidade deve funcionar em portfólios, sites institucionais, ferramentas, jogos e aplicações web.
+Atue como um engenheiro de software Full Stack sênior, especialista em Front-end Engineering, UI/UX Design, CSS Architecture, Design Systems, acessibilidade e otimização de aplicações web.
 
-======================================================================
-2. PALETA OFICIAL
-======================================================================
+Sua missão é implementar e manter um sistema visual unificado para os projetos de Eliseu Fernandes Laurindo, denominado **EXECUTIVE DIGITAL**.
 
-CORES CENTRAIS DA MARCA
-Azul executivo:       #1D4263
-Azul digital:         #2563EB
-Verde tecnológico:    #0B7E82
+Esse sistema será a identidade visual de referência para todos os projetos atuais e futuros.
 
-TEMA CLARO
-Fundo principal:       #F4F7FB
-Superfície/cartões:    #FFFFFF
-Superfície secundária: #E9EFF5
-Texto principal:       #162638
-Texto secundário:      #526579
-Bordas:                #D5DEE8
-Azul institucional:    #1D4263
-Azul de ação:          #2563EB
-Verde tecnológico:     #0B7E82
+Não se trata de aplicar um template genérico. Trata-se de estabelecer uma linguagem visual própria, profissional, reconhecível, consistente e tecnicamente bem estruturada.
 
-TEMA ESCURO
-Fundo principal:       #111C28
-Superfície/cartões:    #1B2A3A
-Superfície secundária: #24364A
-Texto principal:       #EDF3F8
-Texto secundário:      #B7C5D3
-Bordas:                #3A4D60
-Azul institucional:    #91B7D8
-Azul de ação:          #83B4FF
-Verde tecnológico:     #68CBC2
+A implementação deverá contemplar:
 
-REGRAS DE USO
-- O modo escuro utiliza superfícies em níveis diferentes, nunca um fundo preto uniforme.
-- Cartões devem ser distinguíveis do fundo.
-- Não reduzir excessivamente a opacidade dos textos secundários.
-- Não usar azul escuro para texto sobre fundo escuro.
-- Evitar grandes áreas preenchidas com cores de destaque.
-- Gradientes, se usados, devem ser discretos e localizados.
-- Não depender apenas da cor para indicar estados.
-- Verificar WCAG 2.2 AA: contraste mínimo de 4,5:1 para texto normal e 3:1 para texto grande e componentes gráficos relevantes. Conferir os pares reais de cada componente; não presumir que todas as combinações da paleta atendem automaticamente.
+1. Identidade visual institucional.
+2. Padronização das logomarcas, símbolos e ícones.
+3. Sistema de cores e tokens CSS.
+4. Temas completos para DIA e NOITE.
+5. Integração do componente original DAY & NIGHT EXPERIENCE.
+6. Efeitos de transição entre os temas.
+7. Componentes visuais padronizados.
+8. Responsividade e acessibilidade.
+9. Créditos obrigatórios do desenvolvedor.
+10. Organização, manutenção e reutilização do CSS.
 
-======================================================================
-3. TOKENS CSS
-======================================================================
+O resultado deverá transmitir profissionalismo, credibilidade, tecnologia, organização, elegância e modernidade.
 
-Usar variáveis semânticas. Os componentes devem consumir tokens, não cores avulsas espalhadas pelo CSS.
+# 2. REFERÊNCIAS OFICIAIS E FONTES DE VERDADE
 
-Exemplo:
+Antes de qualquer implementação, consulte e analise as seguintes referências.
 
-:root {
-  color-scheme: light;
-  --color-background: #F4F7FB;
-  --color-surface: #FFFFFF;
-  --color-surface-secondary: #E9EFF5;
-  --color-text: #162638;
-  --color-text-secondary: #526579;
-  --color-border: #D5DEE8;
-  --color-primary: #1D4263;
-  --color-action: #2563EB;
-  --color-accent: #0B7E82;
-  --color-focus: #2563EB;
-  --color-shadow: 0 10px 30px rgba(22, 38, 56, .08);
+### 2.1. Identidade visual anterior
 
-  --font-sans: "Inter", "Manrope", system-ui, -apple-system,
-               BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+Utilize o arquivo:
 
-  --content-width: 1180px;
-  --header-height: 76px;
-  --radius-small: 8px;
-  --radius-medium: 12px;
-  --radius-large: 18px;
-  --radius-pill: 999px;
+`estilo-visual-backup.txt`
 
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 24px;
-  --space-8: 32px;
-  --space-10: 40px;
-  --space-12: 48px;
-  --space-16: 64px;
-  --space-20: 80px;
+Ele contém a primeira versão da identidade EXECUTIVE DIGITAL, incluindo paleta cromática, tipografia, componentes, espaçamento, responsividade, acessibilidade e estrutura CSS.
 
-  --motion-fast: 180ms;
-  --motion-standard: 280ms;
-  --motion-emphasis: 420ms;
-  --ease-standard: cubic-bezier(.2, .7, .2, 1);
-}
+Preserve seus fundamentos e evolua o sistema. Não descaracterize a identidade existente.
 
-[data-theme="dark"] {
-  color-scheme: dark;
-  --color-background: #111C28;
-  --color-surface: #1B2A3A;
-  --color-surface-secondary: #24364A;
-  --color-text: #EDF3F8;
-  --color-text-secondary: #B7C5D3;
-  --color-border: #3A4D60;
-  --color-primary: #91B7D8;
-  --color-action: #83B4FF;
-  --color-accent: #68CBC2;
-  --color-focus: #83B4FF;
-  --color-shadow: 0 12px 32px rgba(0, 0, 0, .22);
-}
+### 2.2. Sites de referência
 
-Ajustar sombras, raios, espaçamentos e dimensões conforme o projeto, sem criar uma paleta desconectada.
+Analise os projetos já publicados:
 
-======================================================================
-4. TIPOGRAFIA
-======================================================================
+- Portfólio pessoal e profissional: https://eliseuangelos.github.io/
+- Gerador de Caça-Palavras: https://eliseuangelos.github.io/caca-palavras/
+- DAY & NIGHT EXPERIENCE: https://eliseuangelos.github.io/day-night-experience/
 
-Fonte principal: Inter ou Manrope.
-Fonte técnica secundária: IBM Plex Mono.
+Esses projetos representam referências reais da evolução da identidade visual.
 
-- Usar a fonte principal em títulos, textos, menus e botões.
-- Reservar a monoespaçada para pequenos indicadores, metadados técnicos e detalhes.
-- Pesos usuais: 400, 500, 600 e 700.
-- H1: clamp(2.2rem, 5vw, 3.8rem), peso 700.
-- H2: clamp(1.7rem, 3vw, 2.5rem), peso 650/700.
-- H3: 1.2rem a 1.5rem, peso 600.
-- Texto: 1rem a 1.125rem, line-height 1.6 a 1.75.
-- Texto auxiliar: 0.875rem a 0.95rem.
-- Etiquetas: 0.75rem a 0.825rem, peso 600.
-- Manter hierarquia consistente e largura de leitura confortável.
-- Evitar caixa alta em frases longas.
-- Usar clamp() para escalas fluidas.
+Considere especialmente a integração entre identidade institucional, aplicações funcionais, navegação, componentes e alternância de temas.
 
-======================================================================
-5. LAYOUT E ESPAÇAMENTO
-======================================================================
+### 2.3. Logomarcas e ícones oficiais
 
-- Conteúdo centralizado, largura máxima de referência entre 1100 e 1200px.
-- Margens laterais confortáveis em telas grandes.
-- Padding lateral mobile de referência: 20px.
-- Usar CSS Grid e Flexbox.
-- Preferir grids adaptáveis com minmax(), auto-fit e auto-fill.
-- Manter alinhamentos consistentes.
-- Não transformar todo parágrafo em cartão.
-- Usar divisórias finas apenas quando ajudarem a leitura.
+Repositório de referência:
+
+https://github.com/eliseuangelos/eliseuangelos.github.io/tree/9021a56d3219b70d78a0ec5c665a0db17155da7d/assets/icons
+
+Arquivos oficiais:
+
+- `assets/icons/brand-symbol.svg`
+- `assets/icons/favicon.svg`
+- `assets/icons/apple-touch-icon.png`
+
+Esses arquivos representam os elementos oficiais de identificação da marca.
+
+REGRAS OBRIGATÓRIAS:
+
+- Utilizar os arquivos originais.
+- Não recriar o símbolo com CSS.
+- Não substituir os ícones por emojis.
+- Não utilizar símbolos genéricos no lugar da identidade oficial.
+- Não distorcer as proporções.
+- Não aplicar filtros que alterem arbitrariamente as cores originais.
+- Não produzir versões alternativas sem necessidade ou autorização.
+- Preservar a qualidade vetorial do SVG.
+- Respeitar as dimensões e proporções originais.
+
+O `brand-symbol.svg` deverá identificar visualmente a marca nos locais apropriados da interface.
+
+O `favicon.svg` deverá ser utilizado como ícone das páginas.
+
+O `apple-touch-icon.png` deverá ser utilizado para os atalhos de dispositivos compatíveis.
+
+Verifique os caminhos de integração considerando a estrutura de hospedagem, especialmente projetos publicados em subdiretórios do GitHub Pages.
+
+Não utilizar links de páginas HTML do GitHub no lugar dos arquivos reais.
+
+# 3. CONCEITO VISUAL — EXECUTIVE DIGITAL
+
+A identidade deverá transmitir:
+
+- Profissionalismo.
+- Tecnologia.
+- Credibilidade.
+- Clareza.
+- Organização.
+- Sofisticação.
+- Modernidade.
+- Inovação.
+- Elegância.
+- Experiência digital refinada.
+
+### Direção estética
+
+Adotar uma estética executiva contemporânea, com influência de interfaces institucionais modernas, produtos SaaS profissionais e aplicações digitais bem estruturadas.
+
+O conteúdo deve ser o protagonista.
+
+Utilizar elementos visuais tecnológicos com moderação, priorizando a qualidade da composição e a facilidade de utilização.
+
+### Evitar expressamente
+
+- Estética gamer.
+- Cyberpunk.
+- Matrix.
+- Interfaces de terminal.
+- Excesso de neon.
+- Brilhos exagerados.
+- Gradientes chamativos.
+- Efeitos decorativos desnecessários.
+- Cartões para absolutamente todos os elementos.
+- Animações constantes sem função.
+- Interfaces excessivamente carregadas.
+
+O resultado deverá ser sofisticado, mas não extravagante.
+
+# 4. PALETA CROMÁTICA OFICIAL
+
+A paleta existente deve ser preservada.
+
+## Cores centrais da marca
+
+| Identificação | Código |
+|---|---|
+| Azul executivo | #1D4263 |
+| Azul digital | #2563EB |
+| Verde tecnológico | #0B7E82 |
+
+Essas três cores constituem a identidade cromática institucional.
+
+## TEMA DIA — LIGHT
+
+| Elemento | Cor |
+|---|---|
+| Fundo principal | #F4F7FB |
+| Superfície / cartões | #FFFFFF |
+| Superfície secundária | #E9EFF5 |
+| Texto principal | #162638 |
+| Texto secundário | #526579 |
+| Bordas | #D5DEE8 |
+| Azul institucional | #1D4263 |
+| Azul de ação | #2563EB |
+| Verde tecnológico | #0B7E82 |
+
+## TEMA NOITE — DARK
+
+| Elemento | Cor |
+|---|---|
+| Fundo principal | #111C28 |
+| Superfície / cartões | #1B2A3A |
+| Superfície secundária | #24364A |
+| Texto principal | #EDF3F8 |
+| Texto secundário | #B7C5D3 |
+| Bordas | #3A4D60 |
+| Azul institucional | #91B7D8 |
+| Azul de ação | #83B4FF |
+| Verde tecnológico | #68CBC2 |
+
+### Regras cromáticas
+
+- Não utilizar preto puro como fundo dominante.
+- Não utilizar branco puro em todos os componentes do tema escuro.
+- Manter diferentes níveis de superfícies.
+- Preservar contraste adequado entre texto e fundo.
+- Evitar grandes áreas de cores de destaque.
+- Utilizar gradientes apenas quando houver justificativa visual.
+- Não inverter artificialmente as cores com `filter: invert()`.
+- Não depender exclusivamente das cores para indicar estados.
+
+A paleta poderá receber complementos semânticos para estados de sucesso, alerta, erro, informação e foco, desde que sejam coerentes com a identidade e testados nos dois temas.
+
+# 5. ARQUITETURA CSS E DESIGN TOKENS
+
+Adotar uma arquitetura baseada em variáveis semânticas.
+
+Todo componente deverá consumir os tokens oficiais, e não utilizar valores de cores espalhados pelo código.
+
+Exemplos de propriedades:
+
+- `--color-background`
+- `--color-surface`
+- `--color-surface-secondary`
+- `--color-text`
+- `--color-text-secondary`
+- `--color-border`
+- `--color-primary`
+- `--color-action`
+- `--color-accent`
+- `--color-focus`
+- `--color-shadow`
+
+Organizar os tokens por categorias:
+
+1. Cores.
+2. Tipografia.
+3. Espaçamento.
+4. Bordas e raios.
+5. Sombras.
+6. Dimensões.
+7. Transições.
+8. Camadas e posicionamento.
+9. Componentes.
+10. Temas.
+
+### Tipografia
+
+Fontes principais:
+
+- Inter.
+- Manrope.
+
+Fonte técnica secundária:
+
+- IBM Plex Mono.
+
+Utilização:
+
+- Inter ou Manrope para títulos, conteúdo, botões e navegação.
+- IBM Plex Mono apenas para indicadores técnicos, metadados e pequenos detalhes.
+
+Escalas responsivas com `clamp()`.
+
+Preservar legibilidade, hierarquia e consistência.
+
+### Espaçamento e dimensões
+
+Utilizar uma escala consistente, preferencialmente baseada em múltiplos de 4px.
 
 Referências:
-- Espaçamento entre seções: 64–96px desktop; 44–64px mobile.
-- Padding de cartões: 20–28px.
-- Gaps de grids: 18–24px.
-- Largura de leitura: aproximadamente 60–75 caracteres por linha.
 
-======================================================================
-6. COMPONENTES
-======================================================================
+- Conteúdo centralizado.
+- Largura máxima entre 1100px e 1200px.
+- Padding mobile de aproximadamente 20px.
+- Cartões com padding entre 20px e 28px.
+- Seções com espaçamento confortável.
+- Bordas discretas.
+- Raios consistentes entre componentes.
 
-CABEÇALHO E NAVEGAÇÃO
-- Cabeçalho limpo, alinhado e discreto.
-- Pode ser sticky quando útil.
-- Fundo sólido ou translúcido com contraste suficiente.
-- Divisor fino ou sombra leve.
-- Links com estados hover, focus e ativo.
-- Indicador ativo discreto, como linha inferior.
-- Menu mobile compacto, acessível e funcional.
-- Controles de tema sem competir com a navegação.
+Priorizar CSS Grid, Flexbox, `minmax()`, `clamp()`, `rem` e layouts adaptáveis.
 
-BOTÕES
-- Primário preenchido com azul de ação.
-- Secundário com superfície e borda.
-- Terciário/ghost para ações de menor prioridade.
-- Altura confortável: 42–48px.
-- Padding horizontal generoso.
-- Cantos de 8–12px; pill somente quando fizer sentido.
-- Hover com alteração sutil de tonalidade e profundidade.
-- Focus visível e estados disabled claros.
+# 6. SISTEMA DE COMPONENTES VISUAIS
 
-CARTÕES
-- Fundo --color-surface e borda --color-border.
-- Raio entre 10 e 18px.
-- Sombra discreta; sem halos luminosos no tema escuro.
-- Padding consistente.
-- Hover opcional com translateY de -2px a -4px.
-- Não aplicar zoom ou brilho exagerado.
-- Hierarquia clara entre título, conteúdo e ação.
+Criar uma linguagem visual consistente para os componentes utilizados nos projetos.
 
-FORMULÁRIOS
-- Fundo de superfície, borda definida e texto legível.
-- Labels visíveis; placeholder não substitui label.
-- Estados focus, error, success e disabled explícitos.
-- No tema escuro, campos não devem permanecer brancos por padrão.
+### Cabeçalho
 
-ÍCONES
-- Preferir uma família vetorial coerente.
-- Manter tamanho e espessura de traço consistentes.
-- Evitar emojis como ícones de interface.
-- Usar ícones para reforçar significado.
+- Limpo e profissional.
+- Logomarca ou símbolo oficial.
+- Navegação bem organizada.
+- Menu responsivo.
+- Controle de tema integrado.
+- Estados ativos discretos.
+- Separação visual sutil do conteúdo.
 
-IMAGENS
-- Preservar proporções e evitar distorções.
-- Definir width/height ou aspect-ratio para reduzir layout shift.
-- Usar object-fit adequado.
-- Raios discretos e consistentes.
-- Lazy loading fora da primeira área visível.
-- Não aplicar filtros que prejudiquem a fidelidade das fotografias.
+### Botões
 
-======================================================================
-7. IDENTIDADE GRÁFICA E SVG
-======================================================================
+Definir padrões para:
 
-Para uma marca pessoal, considerar um monograma geométrico original.
-- Formas simples, memoráveis e equilibradas.
-- SVG vetorial limpo e otimizado.
-- Boa leitura em 16x16, 32x32 e tamanhos maiores.
-- Azul executivo como cor principal; verde tecnológico como detalhe opcional.
-- Evitar ícones genéricos de computador, cadeado, terminal, chip ou código.
-- Não depender de fontes externas dentro do SVG.
-- Criar versões para favicon, marca ampliada e uso monocromático, quando necessário.
-- O símbolo deve funcionar em fundos claros e escuros.
-Para outros produtos, adaptar o símbolo à marca do produto sem abandonar o sistema cromático.
+- Primários.
+- Secundários.
+- Terciários.
+- Ghost.
+- Ícones.
+- Ações destrutivas.
 
-======================================================================
-8. MODO CLARO E ESCURO
-======================================================================
+Padronizar dimensões, raios, espaçamento, hover, focus, active e disabled.
 
-Implementar dois temas completos, não uma simples inversão de cores.
+### Cartões
 
-Requisitos:
-- Alternância sem recarregar a página.
-- Preferência salva em localStorage.
-- Primeira visita respeita prefers-color-scheme.
-- Evitar flash do tema incorreto no carregamento.
-- Atualizar meta name="theme-color" e color-scheme.
-- Todos os componentes usam tokens semânticos.
-- Não usar filter: invert() para simular tema escuro.
-- Incluir imagens, SVGs, menus, formulários, rodapé e estados interativos.
-- Testar hover, focus, active, disabled, error e success nos dois temas.
-- Garantir contraste em todos os estados.
+- Superfícies diferenciadas por tema.
+- Bordas discretas.
+- Sombras moderadas.
+- Hierarquia interna clara.
+- Elevação sutil em interações quando apropriado.
 
-O controle de tema deve ser acessível por teclado, ter nome acessível e indicar claramente sua função e estado.
+### Formulários
 
-======================================================================
-9. MOVIMENTO E EFEITOS TECNOLÓGICOS
-======================================================================
+- Labels visíveis.
+- Inputs coerentes com os temas.
+- Campos com contraste adequado.
+- Estados de foco, erro, sucesso e desabilitado.
+- Placeholder nunca deve substituir o label.
 
-Tempos de referência:
-- Rápido: 180ms.
-- Padrão: 280ms.
-- Ênfase: 420ms.
-Curva: cubic-bezier(.2, .7, .2, 1).
+### Outros componentes
 
-Efeitos adequados:
-- Fade-in com pequeno deslocamento vertical.
-- Hover com elevação sutil.
-- Transição de cor em links e botões.
-- Sublinhado animado na navegação.
-- Pequenos movimentos de ícones.
-- Indicador discreto de progresso, se útil.
-- Transição controlada entre temas.
-- Detalhes geométricos e linhas finas.
+Padronizar também:
 
-Evitar:
-- Matrix e caracteres caindo.
-- Scanlines e cursor piscando.
-- Brilho neon.
-- Partículas em excesso.
-- Animações contínuas sem função.
-- Parallax intenso.
-- Efeitos que atrasem o acesso ao conteúdo.
-- Loading artificial sem necessidade.
+- Modais.
+- Dropdowns.
+- Abas.
+- Menus.
+- Alertas.
+- Tooltips.
+- Indicadores de carregamento.
+- Barras de progresso.
+- Paginação.
+- Tabelas.
+- Elementos de feedback.
 
-Respeitar prefers-reduced-motion. Conteúdo essencial nunca deve depender de animação para aparecer.
+A identidade deve ser consistente, mas a composição de cada projeto deverá respeitar sua finalidade.
 
-======================================================================
-10. RESPONSIVIDADE
-======================================================================
+Não transformar todos os projetos em cópias visuais uns dos outros.
 
-Adotar mobile-first. Testar smartphone estreito, smartphone comum, tablet em retrato/paisagem, notebook e desktop amplo.
+# 7. SISTEMA DAY & NIGHT — INTEGRAÇÃO OBRIGATÓRIA
+
+Este é um dos pilares da nova identidade.
+
+Utilizar como referência técnica e componente de implementação o projeto original:
+
+https://github.com/eliseuangelos/day-night-experience
+
+Demonstração:
+
+https://eliseuangelos.github.io/day-night-experience/
+
+Documentação:
+
+https://github.com/eliseuangelos/day-night-experience/blob/main/docs/COMO-USAR.md
+
+### Regra fundamental
+
+Não desenvolver um alternador independente quando o componente original puder ser integrado.
+
+Primeiro, analise o código-fonte do repositório e identifique a versão e a API disponíveis.
+
+O sistema deverá reaproveitar os arquivos originais do componente, especialmente:
+
+- `component/day-night.js`
+- `component/day-night.css`
+
+A integração poderá utilizar arquivos locais ou uma referência externa versionada, conforme a arquitetura e a hospedagem do projeto.
+
+Quando copiar os arquivos, preserve os avisos de licença e os créditos originais.
+
+### Funcionamento dos temas
+
+Dia:
+
+`data-theme="light"`
+
+Noite:
+
+`data-theme="dark"`
+
+Utilizar a API original `DayNight.init()`.
+
+Preservar a chave de preferência `dn-theme`, conforme a implementação original.
+
+### Comportamento obrigatório
+
+1. Alternância sem recarregar a página.
+2. Persistência da preferência do usuário.
+3. Primeira visita respeitando `prefers-color-scheme`.
+4. Restauração da escolha após recarregamento.
+5. Ausência de flash do tema incorreto.
+6. Atualização de `color-scheme`.
+7. Atualização da cor da barra do navegador por meio de `theme-color`.
+8. Funcionamento em desktop e dispositivos móveis.
+9. Navegação por teclado.
+10. Compatibilidade com `prefers-reduced-motion`.
+
+Deve existir somente uma fonte de verdade para o estado do tema. Não criar dois alternadores independentes ou sistemas concorrentes de persistência.
+
+### Prevenção de flash
+
+Implementar a inicialização do tema antes da primeira pintura da página.
+
+Consultar a preferência salva e, na ausência dela, respeitar a preferência do sistema operacional.
+
+Carregar as definições dos dois temas de maneira que a alternância não dependa de uma troca tardia de folhas de estilo.
+
+### Experiência cinematográfica
+
+A modalidade completa do DAY & NIGHT EXPERIENCE deverá ser a experiência preferencial quando adequada à aplicação.
+
+Preservar a proposta original:
+
+- Representação tridimensional da Terra.
+- Movimento de rotação.
+- Separação entre áreas iluminadas e escuras.
+- Efeito de amanhecer e anoitecer.
+- Nuvens, quando habilitadas.
+- Transição visual entre as paletas.
+- Revelação do novo tema.
+
+As configurações de velocidade poderão utilizar os três níveis oferecidos pelo componente original: lenta, normal e rápida.
+
+A transição deve ser elegante, fluida e visualmente agradável.
+
+A animação deve ocorrer sem bloquear a navegação, prejudicar o conteúdo ou impedir a interação com a página.
+
+### Modalidade simplificada
+
+Quando o contexto da aplicação, a acessibilidade ou o desempenho justificar, utilizar a modalidade somente com botões.
+
+Ela deverá manter exatamente o mesmo sistema de temas, preferências e persistência.
+
+Quando `prefers-reduced-motion` estiver ativo, respeitar a preferência e desativar ou simplificar a animação cinematográfica conforme o comportamento suportado pelo componente original.
+
+Não retirar a funcionalidade de alternância.
+
+# 8. IDENTIDADE DAS PÁGINAS E LOGOMARCA
+
+Todos os projetos deverão utilizar os recursos oficiais de identificação da marca.
+
+Padronizar:
+
+- Favicon.
+- Ícone para dispositivos Apple.
+- Símbolo da marca.
+- Identificação no cabeçalho, quando apropriado.
+- Identificação no rodapé.
+
+Implementar corretamente as declarações de ícones no HTML.
+
+Exemplo de referência:
+
+`rel="icon"` para o favicon SVG.
+
+`rel="apple-touch-icon"` para o ícone Apple.
+
+Utilizar os caminhos de arquivos corretos para o ambiente de implantação.
+
+Não assumir que um caminho absoluto funciona em todas as estruturas do GitHub Pages.
+
+Se o projeto possuir identidade visual própria, preservá-la como identidade do produto, sem perder a identificação institucional do desenvolvedor.
+
+# 9. CRÉDITOS OBRIGATÓRIOS — ELISEU FERNANDES LAURINDO
+
+Todos os sites e aplicações futuros deverão apresentar créditos de desenvolvimento.
+
+Essa é uma exigência permanente da identidade EXECUTIVE DIGITAL.
+
+### Identificação oficial
+
+**Desenvolvido por Eliseu Fernandes Laurindo**
+
+Site pessoal e profissional:
+
+https://eliseuangelos.github.io/
+
+### Implementação
+
+O rodapé deverá conter, no mínimo:
+
+- Identificação do desenvolvedor.
+- Link para o site oficial.
+- Ano atual gerado dinamicamente.
+- Informação de direitos autorais.
+
+Exemplo de composição:
+
+"Desenvolvido por Eliseu Fernandes Laurindo"
+
+"© [ANO ATUAL] Eliseu Fernandes Laurindo. Todos os direitos reservados."
+
+O nome deverá direcionar ao site oficial.
+
+### Regras
+
+- Não retirar os créditos em versões futuras.
+- Não esconder a identificação em páginas secundárias.
+- Não utilizar créditos genéricos.
+- Manter uma apresentação elegante, discreta e profissional.
+- Adaptar o layout do rodapé ao propósito do projeto.
+- Preservar créditos de bibliotecas, frameworks, imagens e componentes de terceiros.
+- Quando houver uma página de créditos, ela poderá apresentar informações complementares sobre tecnologias e licenças utilizadas.
+
+# 10. MICROINTERAÇÕES E EXPERIÊNCIA
+
+Adotar movimentos sutis e funcionais.
+
+Referências:
+
+- Transições de cores.
+- Elevação discreta de cartões.
+- Hover em botões.
+- Indicadores ativos de navegação.
+- Feedback visual de ações.
+- Animações de entrada moderadas.
+- Transições de tema.
+- Ícones com movimentos discretos.
+
+Respeitar `prefers-reduced-motion`.
+
+Não criar animações contínuas que distraiam o usuário.
+
+Não atrasar o acesso ao conteúdo.
+
+# 11. RESPONSIVIDADE
+
+Implementação mobile-first.
+
+Testar em:
+
+- Smartphones pequenos.
+- Smartphones convencionais.
+- Tablets.
+- Notebooks.
+- Monitores desktop.
+- Monitores amplos.
 
 Garantir:
-- Ausência de rolagem horizontal involuntária.
-- Texto confortável e botões com alvos de toque adequados.
-- Navegação mobile funcional.
-- Grids que reorganizam colunas naturalmente.
-- Imagens sem cortes indevidos.
-- Cartões sem largura excessivamente pequena.
-- Espaçamentos adaptados por breakpoint.
-- Cabeçalhos e rodapés sem sobreposição.
 
-Preferir max-width, minmax(), clamp(), %, rem e unidades de viewport com cautela. Evitar larguras fixas que quebrem em telas menores.
+- Ausência de rolagem horizontal indevida.
+- Navegação adaptada.
+- Textos legíveis.
+- Controles com área de toque adequada.
+- Cartões adaptáveis.
+- Formulários funcionais.
+- Rodapé sem sobreposição.
+- Animação DAY & NIGHT compatível com telas pequenas.
 
-======================================================================
-11. ACESSIBILIDADE E PERFORMANCE
-======================================================================
+# 12. ACESSIBILIDADE E DESEMPENHO
 
-- HTML semântico e hierarquia correta de headings.
-- Navegação por teclado e foco visível.
-- Contraste WCAG 2.2 AA.
-- Labels para campos.
-- ARIA somente quando necessário.
-- Alt apropriado para imagens informativas.
-- Links com propósito compreensível.
-- Estados identificáveis sem depender apenas de cor.
-- Respeitar prefers-reduced-motion.
-- Não remover outline sem substituição acessível.
+Adotar WCAG 2.2 AA como referência.
+
+Verificar:
+
+- Contraste mínimo de 4,5:1 para texto normal.
+- Contraste mínimo de 3:1 para texto grande e elementos gráficos relevantes.
+- Navegação por teclado.
+- Foco visível.
+- Labels nos formulários.
+- Estrutura semântica HTML.
+- Atributos ARIA somente quando necessários.
+- Alternativas textuais para imagens informativas.
+- Estados que não dependam exclusivamente de cores.
 
 Performance:
-- Preferir CSS e JavaScript nativos quando suficientes.
-- Evitar bibliotecas desnecessárias.
-- Carregar fontes eficientemente.
+
+- Evitar dependências desnecessárias.
+- Priorizar CSS e JavaScript nativos.
+- Não duplicar bibliotecas.
 - Otimizar imagens.
-- Usar lazy loading fora da primeira dobra.
-- Evitar scripts bloqueantes e layout shift.
-- Verificar erros no console e recursos 404.
+- Controlar scripts e recursos bloqueantes.
+- Evitar layout shift.
+- Não introduzir bibliotecas pesadas apenas para criar efeitos simples.
 
-======================================================================
-12. ORGANIZAÇÃO DE CÓDIGO SUGERIDA
-======================================================================
+# 13. ORGANIZAÇÃO DO PROJETO
 
-Para sites estáticos:
+Respeitar a arquitetura existente.
 
-/
-├── index.html
-├── assets/
-│   ├── css/
-│   │   ├── main.css
-│   │   ├── variables.css
-│   │   ├── reset.css
-│   │   ├── base.css
-│   │   ├── typography.css
-│   │   ├── layout.css
-│   │   ├── components.css
-│   │   ├── themes.css
-│   │   ├── responsive.css
-│   │   └── print.css
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── theme.js
-│   │   ├── navigation.js
-│   │   └── animations.js
-│   ├── images/
-│   ├── icons/
-│   └── fonts/
-└── README.md
+Para sites estáticos, considerar uma organização modular semelhante a:
 
-Adaptar a estrutura ao tamanho real do projeto. Não criar arquivos vazios ou fragmentar código sem benefício. Em projetos com framework, preservar a arquitetura própria dele e aplicar os mesmos tokens e princípios.
+```text
+assets/
+├── css/
+│   ├── main.css
+│   ├── variables.css
+│   ├── theme-day.css
+│   ├── theme-night.css
+│   ├── reset.css
+│   ├── base.css
+│   ├── typography.css
+│   ├── layout.css
+│   ├── components.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── theme-init.js
+│   └── day-night.js
+│
+├── icons/
+│   ├── brand-symbol.svg
+│   ├── favicon.svg
+│   └── apple-touch-icon.png
+│
+└── images/
+```
 
-======================================================================
-13. CHECKLIST DE ACEITAÇÃO
-======================================================================
+Essa estrutura é uma referência, não uma exigência de fragmentação.
 
-[ ] Identidade Executive Digital consistente.
-[ ] Paleta oficial aplicada.
-[ ] Tema claro completo.
-[ ] Tema escuro completo, sem preto puro dominante.
-[ ] Preferência de tema persistida.
-[ ] Tema inicial respeita preferência do dispositivo.
-[ ] Sem flash do tema incorreto.
-[ ] Contraste adequado nos componentes e estados.
-[ ] Tipografia e hierarquia consistentes.
-[ ] Navegação desktop e mobile funcional.
-[ ] Cartões, botões e formulários padronizados.
-[ ] Ícones coerentes.
-[ ] Animações sutis e funcionais.
-[ ] prefers-reduced-motion respeitado.
-[ ] Sem rolagem horizontal involuntária.
-[ ] Imagens proporcionais e carregando corretamente.
-[ ] Sem erros no console ou recursos quebrados.
-[ ] Experiência testada em diferentes tamanhos de tela.
+Não criar arquivos vazios ou módulos desnecessários.
 
-======================================================================
-14. PROMPT CURTA PARA REUTILIZAR ESTE GUIA
-======================================================================
+Em projetos React, Vue, Angular ou outros frameworks, respeitar a organização própria da aplicação.
 
-"Adote integralmente o sistema visual EXECUTIVE DIGITAL documentado neste arquivo. Aplique a paleta oficial, os temas claro e escuro, a tipografia, os tokens CSS, o sistema de espaçamento, os componentes, as microinterações, a responsividade e os critérios de acessibilidade. Preserve a identidade, o conteúdo e as funcionalidades próprios do projeto, adaptando a composição e os componentes ao seu propósito. Não copie cegamente a estrutura de páginas de outro site. O resultado deve manter uma linguagem visual executiva, moderna, tecnológica e consistente. Implemente e teste os dois temas de forma completa."
+# 14. PROCEDIMENTO DE IMPLEMENTAÇÃO
 
-FIM DO DOCUMENTO
+Antes de alterar qualquer arquivo:
+
+1. Examine a estrutura atual do projeto.
+2. Identifique as tecnologias utilizadas.
+3. Analise os arquivos CSS e JavaScript existentes.
+4. Identifique os componentes visuais já implementados.
+5. Verifique a presença de temas anteriores.
+6. Verifique os caminhos de imagens e ícones.
+7. Identifique funcionalidades que não podem ser prejudicadas.
+8. Analise a melhor maneira de integrar o DAY & NIGHT original.
+9. Determine como aplicar os créditos sem comprometer a composição existente.
+
+Em seguida, implemente o sistema.
+
+### Regras de preservação
+
+Não remover funcionalidades existentes.
+
+Não modificar a lógica de negócio sem necessidade.
+
+Não alterar conteúdo textual ou dados do projeto apenas por causa da identidade visual.
+
+Não substituir componentes funcionais por elementos decorativos.
+
+Não reconstruir a aplicação do zero quando uma evolução da estrutura atual for suficiente.
+
+A identidade visual deverá ser aplicada de maneira progressiva e tecnicamente fundamentada.
+
+# 15. TESTES E CRITÉRIOS DE ACEITAÇÃO
+
+Antes de concluir, validar os seguintes requisitos:
+
+**Identidade**
+- [ ] Identidade EXECUTIVE DIGITAL aplicada.
+- [ ] Paleta oficial preservada.
+- [ ] Tipografia padronizada.
+- [ ] Símbolo oficial aplicado corretamente.
+- [ ] Favicon correto.
+- [ ] Apple Touch Icon configurado.
+
+**Tema DIA**
+- [ ] Cores corretas.
+- [ ] Textos legíveis.
+- [ ] Componentes adaptados.
+- [ ] Formulários funcionais.
+- [ ] Navegação consistente.
+
+**Tema NOITE**
+- [ ] Fundo sem preto puro predominante.
+- [ ] Superfícies diferenciadas.
+- [ ] Textos com contraste adequado.
+- [ ] Campos e cartões adaptados.
+- [ ] Menus e rodapé adaptados.
+
+**DAY & NIGHT**
+- [ ] Componente original integrado.
+- [ ] Animação funcional.
+- [ ] Alternância nos dois sentidos.
+- [ ] Preferência salva.
+- [ ] Preferência do dispositivo respeitada na primeira visita.
+- [ ] Ausência de flash indevido.
+- [ ] Compatibilidade com movimento reduzido.
+- [ ] Sem alternadores concorrentes.
+
+**Créditos**
+- [ ] Eliseu Fernandes Laurindo identificado.
+- [ ] Link para o site oficial.
+- [ ] Ano atualizado automaticamente.
+- [ ] Créditos presentes no rodapé.
+
+**Qualidade**
+- [ ] Layout responsivo.
+- [ ] Navegação por teclado.
+- [ ] Foco acessível.
+- [ ] Sem rolagem horizontal indevida.
+- [ ] Sem erros no console.
+- [ ] Sem recursos 404.
+- [ ] Sem funcionalidades anteriores quebradas.
+- [ ] Performance preservada.
+
+# 16. ENTREGA
+
+Ao finalizar a implementação:
+
+1. Informe quais arquivos foram criados.
+2. Informe quais arquivos foram modificados.
+3. Explique como foi integrada a identidade visual.
+4. Explique como funciona a alternância de temas.
+5. Informe como foi integrada a animação DAY & NIGHT.
+6. Confirme a implementação dos créditos.
+7. Apresente os testes realizados.
+8. Informe eventuais limitações ou requisitos pendentes.
+
+Não declare que uma funcionalidade está concluída sem testá-la.
+
+---
+
+# DIRETRIZ FINAL
+
+A identidade EXECUTIVE DIGITAL deve funcionar como um padrão institucional permanente.
+
+Todos os projetos deverão compartilhar a mesma essência visual, o mesmo padrão de identificação da marca, a mesma linguagem cromática, o mesmo sistema de temas e a mesma identificação de autoria.
+
+Entretanto, cada projeto deverá continuar tendo personalidade própria, composição adequada ao seu propósito e experiência otimizada para seus usuários.
+
+**O objetivo é construir um ecossistema de aplicações visualmente reconhecível, tecnicamente consistente, profissional e sustentável.**
+
+Não queremos apenas sites bonitos. Queremos produtos digitais com identidade própria, qualidade de implementação e consistência em todos os detalhes.
+
+**EXECUTIVE DIGITAL — Professional Identity + Modern Technology + Refined Experience.**
+
+Desenvolvido por Eliseu Fernandes Laurindo.
