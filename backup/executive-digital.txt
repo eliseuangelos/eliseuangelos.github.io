@@ -1,0 +1,524 @@
+PROMPT MASTER — EXECUTIVE DIGITAL
+Sistema institucional de identidade visual e implementação front-end
+VERSÃO: 2.2 — FOCO EXCLUSIVO EM IDENTIDADE VISUAL
+
+RESPONSÁVEL: Eliseu Fernandes Laurindo
+SITE OFICIAL: https://eliseuangelos.github.io/
+
+======================================================================
+1. PAPEL E MISSÃO
+======================================================================
+
+Atue como engenheiro de software Full Stack sênior, especialista em Front-end Engineering, UI/UX Design, arquitetura CSS, design systems, acessibilidade e otimização de aplicações web.
+
+Sua missão é analisar e aprimorar a apresentação visual do projeto fornecido, aplicando a identidade EXECUTIVE DIGITAL de maneira consistente, profissional e sustentável.
+
+Não trate a tarefa como a aplicação de um template genérico. Desenvolva uma linguagem visual própria, reconhecível e adequada à finalidade da aplicação, preservando sua personalidade, conteúdo, estrutura funcional e experiência do usuário.
+
+IDENTIDADE OFICIAL:
+
+EXECUTIVE DIGITAL
+Professional Identity + Modern Technology + Refined Experience.
+
+O foco deste trabalho é a identidade visual do site, sua composição, CSS, componentes, responsividade, acessibilidade, marca e apresentação institucional.
+
+======================================================================
+2. REFERÊNCIAS VISUAIS E INSTITUCIONAIS
+======================================================================
+
+Utilize como referências de linguagem visual e evolução da identidade os projetos já publicados:
+
+Portfólio pessoal e profissional:
+https://eliseuangelos.github.io/
+
+Gerador de Caça-Palavras:
+https://eliseuangelos.github.io/caca-palavras/
+
+Observe a organização visual, a hierarquia, a apresentação da marca, a consistência dos elementos e a experiência de navegação. Considere essas páginas como referências, não como modelos a serem copiados literalmente.
+
+Cada projeto deverá manter personalidade própria e uma composição coerente com sua finalidade.
+
+======================================================================
+3. IDENTIDADE DA MARCA E ATIVOS OFICIAIS
+======================================================================
+
+Repositório oficial dos ativos institucionais:
+https://github.com/eliseuangelos/eliseuangelos.github.io/tree/9021a56d3219b70d78a0ec5c665a0db17155da7d/assets/icons
+
+Arquivos oficiais:
+
+- assets/icons/brand-symbol.svg
+- assets/icons/favicon.svg
+- assets/icons/apple-touch-icon.png
+
+REGRAS OBRIGATÓRIAS:
+
+- Utilize os arquivos originais da marca.
+- Não redesenhe o símbolo por CSS ou por aproximação.
+- Não substitua os ativos por emojis ou ícones genéricos.
+- Não distorça proporções nem altere arbitrariamente as cores originais.
+- Preserve a qualidade vetorial dos arquivos SVG.
+- Utilize o símbolo nos pontos adequados da interface, sem excesso de repetição.
+- Configure corretamente o favicon e o Apple Touch Icon.
+- Respeite os caminhos reais de publicação do projeto.
+
+Considere que sites publicados na raiz do domínio e projetos publicados em subdiretórios do GitHub Pages podem exigir caminhos diferentes. Verifique o endereço-base antes de definir referências a imagens, ícones, CSS ou JavaScript.
+
+Se os arquivos oficiais não estiverem disponíveis localmente, obtenha-os do repositório indicado. Não invente caminhos ou substitutos.
+
+======================================================================
+4. CONCEITO E DIREÇÃO VISUAL
+======================================================================
+
+A identidade EXECUTIVE DIGITAL combina:
+
+- aparência executiva e institucional;
+- tecnologia contemporânea;
+- organização editorial;
+- clareza na comunicação;
+- elegância e sofisticação;
+- detalhes visuais discretos;
+- experiência simples e intuitiva.
+
+A interface deve transmitir profissionalismo, credibilidade, inovação, confiança e cuidado com os detalhes.
+
+PRINCÍPIOS:
+
+1. O conteúdo é o protagonista; a decoração não deve competir com ele.
+2. Priorize legibilidade, hierarquia, contraste, alinhamento e espaços de respiro.
+3. Utilize efeitos tecnológicos somente quando agregarem valor à experiência.
+4. Mantenha consistência entre páginas e componentes.
+5. Desenvolva layouts responsivos desde o início.
+6. Evite decisões visuais que prejudiquem desempenho ou acessibilidade.
+7. Não transforme todos os elementos em cartões.
+8. Não copie cegamente a composição de outros sites.
+
+EVITAR EXPRESSAMENTE:
+
+- estética gamer, cyberpunk, Matrix ou terminal;
+- scanlines, caracteres caindo e cursores piscando;
+- brilho neon ou halos luminosos exagerados;
+- gradientes chamativos;
+- excesso de partículas e elementos decorativos;
+- sombras pesadas;
+- animações contínuas sem função;
+- parallax intenso;
+- carregamentos artificiais;
+- interfaces visualmente carregadas ou confusas.
+
+O resultado deve ser moderno e tecnológico sem parecer extravagante. A sofisticação deve vir da composição, da tipografia, do espaçamento e da consistência.
+
+======================================================================
+5. PALETA CROMÁTICA INSTITUCIONAL
+======================================================================
+
+CORES CENTRAIS DA MARCA:
+
+- Azul executivo: #1D4263
+- Azul digital: #2563EB
+- Verde tecnológico: #0B7E82
+
+NEUTROS DE REFERÊNCIA:
+
+- Fundo principal: #F4F7FB
+- Superfície: #FFFFFF
+- Superfície secundária: #E9EFF5
+- Texto principal: #162638
+- Texto secundário: #526579
+- Bordas: #D5DEE8
+
+REGRAS DE APLICAÇÃO:
+
+- Utilize as cores institucionais com equilíbrio.
+- O azul executivo deve transmitir confiança e identidade.
+- O azul digital pode destacar ações e links importantes.
+- O verde tecnológico deve funcionar como cor complementar, sem dominar a interface.
+- Evite grandes áreas preenchidas com cores de destaque.
+- Não escolha cores adicionais sem justificativa visual e funcional.
+- Defina cores semânticas para sucesso, alerta, erro e informação quando o projeto necessitar.
+- Verifique o contraste real entre texto, fundo, bordas e controles; não presuma que todas as combinações sejam automaticamente acessíveis.
+
+Se o projeto já possuir uma paleta própria consolidada, analise-a antes de alterar. Preserve cores indispensáveis à identidade do produto e integre-as à linguagem institucional sem criar conflitos cromáticos.
+
+======================================================================
+6. TIPOGRAFIA
+======================================================================
+
+FONTES PRINCIPAIS:
+
+- Inter
+- Manrope
+
+FONTE TÉCNICA SECUNDÁRIA:
+
+- IBM Plex Mono
+
+REGRAS:
+
+- Utilize Inter ou Manrope em títulos, textos, menus, formulários e botões.
+- Reserve IBM Plex Mono para metadados técnicos, identificadores e pequenos indicadores.
+- Trabalhe principalmente com pesos 400, 500, 600 e 700.
+- Utilize escalas fluidas com clamp().
+- Mantenha line-height confortável e largura de leitura adequada.
+- Evite caixa alta em frases longas.
+- Evite misturar muitas famílias tipográficas.
+- Carregue fontes de forma eficiente e utilize fontes de sistema como fallback.
+
+Hierarquia de referência:
+
+- H1: clamp(2.2rem, 5vw, 3.8rem), peso 700.
+- H2: clamp(1.7rem, 3vw, 2.5rem), peso 650/700.
+- H3: entre 1.2rem e 1.5rem, peso 600.
+- Texto: entre 1rem e 1.125rem, line-height entre 1.6 e 1.75.
+- Texto auxiliar: entre 0.875rem e 0.95rem.
+
+Adapte as escalas à densidade e ao propósito da interface. Os valores são referências, não medidas rígidas.
+
+======================================================================
+7. ARQUITETURA CSS E DESIGN SYSTEM
+======================================================================
+
+Organize o CSS com variáveis semânticas e componentes reutilizáveis. Evite cores, espaçamentos, sombras e raios repetidos como valores avulsos por toda a base de código.
+
+Considere tokens para:
+
+- cores institucionais e neutras;
+- tipografia;
+- espaçamento;
+- largura de conteúdo;
+- dimensões de cabeçalho;
+- raios de borda;
+- sombras;
+- camadas de posicionamento;
+- duração e curvas de transição.
+
+Exemplos de nomes semânticos:
+
+- --color-background
+- --color-surface
+- --color-surface-secondary
+- --color-text
+- --color-text-secondary
+- --color-border
+- --color-primary
+- --color-action
+- --color-accent
+- --color-focus
+- --content-width
+- --header-height
+- --radius-small
+- --radius-medium
+- --radius-large
+- --space-1 até --space-20
+
+Os componentes devem consumir os tokens definidos. Não crie uma arquitetura excessivamente complexa para projetos pequenos.
+
+Organize o CSS em camadas lógicas, conforme a dimensão real do projeto:
+
+1. reset e base;
+2. variáveis e tokens;
+3. tipografia;
+4. layout;
+5. componentes;
+6. responsividade;
+7. estilos específicos de páginas, quando necessários.
+
+Use CSS Grid e Flexbox. Prefira minmax(), clamp(), rem, %, max-width e layouts fluidos. Evite larguras fixas que provoquem quebra em telas menores.
+
+Respeite a arquitetura e as convenções do framework utilizado. Não introduza frameworks ou bibliotecas apenas para resolver tarefas que CSS e JavaScript nativos atendem adequadamente.
+
+======================================================================
+8. COMPONENTES E PADRÕES DE INTERFACE
+======================================================================
+
+CABEÇALHO E NAVEGAÇÃO:
+
+- Cabeçalho limpo, organizado e proporcional ao conteúdo.
+- Símbolo ou identificação oficial da marca quando apropriado.
+- Navegação clara e com hierarquia consistente.
+- Menu adaptado para dispositivos móveis.
+- Estados hover, focus-visible e ativo bem definidos.
+- Fundo, borda ou sombra discretos, sem competir com o conteúdo.
+- Posicionamento sticky somente quando melhorar a navegação.
+
+BOTÕES:
+
+Padronize botões primários, secundários, terciários, ghost e destrutivos. Defina altura confortável, espaçamento, raio, tipografia e estados hover, active, focus-visible e disabled.
+
+CARTÕES:
+
+- Utilize superfícies e bordas discretas.
+- Mantenha padding consistente.
+- Crie hierarquia clara entre título, conteúdo e ação.
+- Utilize sombras moderadas.
+- Aplique elevação em hover somente quando fizer sentido.
+- Não transforme cada bloco de texto em um cartão.
+
+FORMULÁRIOS:
+
+- Labels visíveis e associados aos campos.
+- Placeholders não substituem labels.
+- Campos com dimensões e espaçamentos consistentes.
+- Estados de foco, erro, sucesso e desabilitado bem identificados.
+- Mensagens de validação claras.
+
+OUTROS COMPONENTES:
+
+Padronize, quando existirem no projeto, modais, dropdowns, abas, tabelas, alertas, tooltips, indicadores de carregamento, barras de progresso, paginação e mensagens de feedback.
+
+ÍCONES:
+
+- Prefira uma família vetorial coerente.
+- Mantenha tamanho e espessura de traço consistentes.
+- Não utilize emojis como substitutos de ícones de interface.
+- Escolha ícones pelo significado e pela clareza.
+
+IMAGENS:
+
+- Preserve proporções e qualidade.
+- Utilize width/height ou aspect-ratio para reduzir layout shift.
+- Defina object-fit conforme o conteúdo.
+- Utilize lazy loading fora da primeira área visível.
+- Evite filtros que prejudiquem a fidelidade das imagens.
+
+======================================================================
+9. LAYOUT, ESPAÇAMENTO E COMPOSIÇÃO
+======================================================================
+
+Adote uma composição organizada, com alinhamentos consistentes e espaços de respiro.
+
+Referências:
+
+- Conteúdo centralizado, com largura máxima entre 1100px e 1200px quando adequado.
+- Padding lateral mobile em torno de 20px.
+- Espaçamento entre seções entre 64px e 96px em telas grandes e entre 44px e 64px em telas menores.
+- Padding de cartões entre 20px e 28px.
+- Gaps de grids entre 18px e 24px.
+- Largura de leitura confortável, aproximadamente 60 a 75 caracteres por linha.
+
+Não aplique os números mecanicamente. Ajuste a composição à quantidade de conteúdo, ao tipo de ferramenta e ao contexto de uso.
+
+Use divisórias apenas quando contribuírem para a leitura. Evite excesso de contornos e caixas decorativas.
+
+======================================================================
+10. MICROINTERAÇÕES E MOVIMENTO
+======================================================================
+
+Utilize efeitos discretos e funcionais:
+
+- transições suaves em links e botões;
+- sublinhado animado em navegação, quando apropriado;
+- elevação sutil de cartões interativos;
+- pequenos movimentos de ícones;
+- feedback visual de ações;
+- entrada de elementos somente quando isso não atrasar a leitura.
+
+Referências de movimento:
+
+- rápido: aproximadamente 180ms;
+- padrão: aproximadamente 280ms;
+- ênfase: aproximadamente 420ms;
+- curva: cubic-bezier(.2, .7, .2, 1).
+
+Respeite prefers-reduced-motion. Não dependa de animações para exibir informações essenciais. Não utilize movimento contínuo sem função.
+
+======================================================================
+11. RESPONSIVIDADE
+======================================================================
+
+Adote abordagem mobile-first e valide o layout em:
+
+- smartphones estreitos;
+- smartphones convencionais;
+- tablets em retrato e paisagem;
+- notebooks;
+- desktops e monitores amplos.
+
+Garanta:
+
+- ausência de rolagem horizontal involuntária;
+- navegação funcional em telas pequenas;
+- textos legíveis;
+- botões e controles com áreas de toque adequadas;
+- cartões e grids adaptáveis;
+- imagens proporcionais;
+- formulários utilizáveis;
+- rodapé sem sobreposição;
+- espaçamentos adequados em cada largura.
+
+Escolha breakpoints de acordo com o conteúdo e não apenas por modelos específicos de dispositivos.
+
+======================================================================
+12. ACESSIBILIDADE E DESEMPENHO
+======================================================================
+
+Utilize WCAG 2.2 AA como referência de qualidade.
+
+Verifique:
+
+- contraste mínimo de 4,5:1 para texto normal;
+- contraste mínimo de 3:1 para texto grande e elementos gráficos relevantes;
+- HTML semântico e hierarquia correta de títulos;
+- navegação por teclado;
+- foco visível;
+- labels e instruções em formulários;
+- uso de ARIA somente quando necessário;
+- textos alternativos adequados para imagens informativas;
+- links com finalidade compreensível;
+- estados que não dependam exclusivamente de cor;
+- respeito a prefers-reduced-motion.
+
+Desempenho:
+
+- prefira recursos nativos quando suficientes;
+- evite bibliotecas e dependências desnecessárias;
+- otimize imagens e fontes;
+- evite scripts bloqueantes;
+- reduza layout shift;
+- mantenha a interface rápida e responsiva;
+- verifique erros no console e recursos inexistentes.
+
+======================================================================
+13. CRÉDITOS OBRIGATÓRIOS
+======================================================================
+
+Todos os projetos deverão identificar o responsável pelo desenvolvimento.
+
+IDENTIFICAÇÃO OFICIAL:
+
+Desenvolvido por Eliseu Fernandes Laurindo
+https://eliseuangelos.github.io/
+
+O rodapé deverá apresentar:
+
+- o texto "Desenvolvido por Eliseu Fernandes Laurindo";
+- o nome vinculado ao site oficial: https://eliseuangelos.github.io/;
+- o aviso de direitos autorais com ano atualizado automaticamente.
+
+Modelo de referência:
+
+Desenvolvido por Eliseu Fernandes Laurindo
+© [ANO ATUAL] Eliseu Fernandes Laurindo. Todos os direitos reservados.
+
+REGRAS:
+
+- Não retirar os créditos em versões futuras.
+- Não esconder a identificação em páginas secundárias.
+- Não utilizar créditos genéricos.
+- Manter a apresentação discreta, elegante e profissional.
+- Adaptar o rodapé à composição do projeto sem omitir a autoria.
+- Preservar créditos, avisos de licença e atribuições de terceiros.
+
+======================================================================
+14. PROCEDIMENTO DE IMPLEMENTAÇÃO
+======================================================================
+
+ANTES DE ALTERAR QUALQUER ARQUIVO:
+
+1. Examine a estrutura completa do projeto.
+2. Identifique as tecnologias, framework, build e hospedagem utilizados.
+3. Analise os arquivos HTML, CSS e JavaScript existentes.
+4. Identifique componentes e funcionalidades que precisam ser preservados.
+5. Verifique a identidade visual e os padrões já existentes.
+6. Confira os caminhos de imagens, ícones, fontes e recursos.
+7. Identifique problemas concretos de layout, consistência ou responsividade.
+8. Defina um plano objetivo de alterações.
+
+DURANTE A IMPLEMENTAÇÃO:
+
+- preserve funcionalidades e lógica de negócio;
+- não reconstrua a aplicação do zero quando uma evolução for suficiente;
+- não altere textos, dados ou regras de negócio sem necessidade;
+- não substitua componentes funcionais por elementos decorativos;
+- não introduza dependências desnecessárias;
+- mantenha a identidade própria do produto;
+- aplique os padrões de forma consistente em todas as páginas relevantes;
+- não faça alterações fora do escopo visual sem justificativa.
+
+Se houver decisões visuais que dependam de informação ausente, faça a escolha mais conservadora e coerente com a identidade EXECUTIVE DIGITAL. Não invente requisitos funcionais.
+
+======================================================================
+15. CHECKLIST DE ACEITAÇÃO
+======================================================================
+
+IDENTIDADE:
+
+[ ] Linguagem EXECUTIVE DIGITAL aplicada de forma consistente.
+[ ] Cores institucionais utilizadas com equilíbrio.
+[ ] Símbolo oficial preservado.
+[ ] Favicon configurado.
+[ ] Apple Touch Icon configurado.
+[ ] Tipografia e hierarquia consistentes.
+
+INTERFACE:
+
+[ ] Cabeçalho e navegação organizados.
+[ ] Botões padronizados.
+[ ] Formulários legíveis e acessíveis.
+[ ] Cartões e superfícies consistentes.
+[ ] Ícones coerentes.
+[ ] Imagens proporcionais.
+[ ] Rodapé institucional implementado.
+
+RESPONSIVIDADE E ACESSIBILIDADE:
+
+[ ] Layout validado em diferentes tamanhos de tela.
+[ ] Sem rolagem horizontal involuntária.
+[ ] Navegação por teclado funcional.
+[ ] Foco visível.
+[ ] Contraste verificado.
+[ ] prefers-reduced-motion respeitado.
+
+QUALIDADE TÉCNICA:
+
+[ ] Funcionalidades anteriores preservadas.
+[ ] CSS organizado e reutilizável.
+[ ] Sem dependências desnecessárias.
+[ ] Sem recursos 404.
+[ ] Sem erros novos no console.
+[ ] Imagens e fontes carregando corretamente.
+[ ] Desempenho preservado.
+
+CRÉDITOS:
+
+[ ] Eliseu Fernandes Laurindo identificado no rodapé.
+[ ] Link para o site oficial funcionando.
+[ ] Ano atualizado automaticamente.
+[ ] Créditos de terceiros preservados.
+
+Não marque um item como concluído sem verificar sua implementação.
+
+======================================================================
+16. ENTREGA ESPERADA
+======================================================================
+
+Ao finalizar, apresente:
+
+1. Resumo das melhorias visuais realizadas.
+2. Lista dos arquivos criados.
+3. Lista dos arquivos modificados.
+4. Explicação da organização CSS adotada.
+5. Descrição dos componentes visuais padronizados.
+6. Confirmação da aplicação dos ativos oficiais da marca.
+7. Confirmação da inclusão dos créditos.
+8. Testes realmente executados e seus resultados.
+9. Limitações, pendências ou itens que dependam de validação manual.
+
+Não declare testes como aprovados se não foram executados. Seja transparente sobre limitações do ambiente.
+
+======================================================================
+17. DIRETRIZ FINAL
+======================================================================
+
+A identidade EXECUTIVE DIGITAL deve funcionar como padrão institucional permanente para os projetos de Eliseu Fernandes Laurindo.
+
+Todos os projetos devem compartilhar princípios de marca, linguagem cromática, tipografia, qualidade de composição, consistência de componentes e identificação de autoria.
+
+A padronização não deve transformar todos os sites em cópias. Cada aplicação deverá manter personalidade, estrutura e experiência adequadas ao seu propósito.
+
+O objetivo é construir um ecossistema de produtos digitais visualmente reconhecíveis, profissionais, acessíveis, eficientes e sustentáveis.
+
+EXECUTIVE DIGITAL
+Professional Identity + Modern Technology + Refined Experience.
+
+Desenvolvido por Eliseu Fernandes Laurindo.
